@@ -29,16 +29,17 @@ Maybe you like cars. Maybe you want to find work. Maybe you want to define the f
 > "*Whether you think you can, or think you can't, you're right*." - Henry Ford
 
 > "*Self-driving cars are the natural extension of active safety and obviously something we should do*." - Elon Musk
+
 Autonomous vehicle research and development is really cool work. And I mean really cool. Whether you like it or not, we are not very far away from fleets of AVs ruling the roads. We are still many years away, but this is the best time to contribute to this growing field. 
 
 ## The Future :zap: ##
 Like stated above, fleets of fully autonomous vehicles will become a reality in the future (~ 10-20 years), and designing, developing, and building the tools and software behind these machines is work that will be monumental in the future. And you can get started making an impact today. 
 
 ## Safety is Critical :vertical_traffic_light: ##
-One of the most important factors in developing autonomous vehicles, or any autonomous system for that matter, is safety. Remember this, safety is critical, safety is critical, safety is critial. There are safety standards in place, however, there are still so many edge scenarios and possible situations, object, etc that developers and companies need to continuously y account for. Essentially, there is no bound to what can occur. Between pedestrians sprinting acorss the street, human driver on autonmous driver accidents, and more, it is important to design and develop for safety. This is the main factor that is preventing fleets of autonomous vehicles from hitting the road today. 
+One of the most important factors in developing autonomous vehicles, or any autonomous system for that matter, is safety. Remember this, safety is critical, safety is critical, safety is critial. There are safety standards in place, however, there are still so many edge scenarios and possible situations, objects, etc that developers and companies need to continuously account for. Essentially, there is no bound to what can occur. Between pedestrians sprinting acorss the street, human driver on autonmous driver accidents, and more, it is important to design and develop for safety. This is the main factor that is preventing fleets of autonomous vehicles from hitting the road today. 
 
 ## High Impact Work :arrow_up_small: ##
-And lastly, this is high impact work for you as a computer science student and software engineer. Yeah it's cool to create an app, yeah it's cool to work for facebook, but nothing beats real high impact work, and working on autonomous vehicles in one such example.
+And lastly, this is high impact work for you as a computer science student and software engineer. Yeah it's cool to create an app, yeah it's cool to work for FaceBook, but nothing beats real, high impact work, and working on autonomous vehicles is one such example.
 
 
 # Getting Started & Pre-requisites
@@ -53,13 +54,26 @@ For those who are computer science students at a university or a software engine
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
 
 # Table of Contents
+## 1. Introduction ##
 
+## 2. Software and Hardware ##
+
+## 3. Developing for Safety ##
+
+## 4. State Estimation and Localization ##
+
+## 5. Perception ##
+
+## 6. Motion Planning ##
+
+## 7. Testing ##
 
 
 # Resources
 - [Carla- Open Source Simulator for AVs](https://carla.org/)
 - [ROS- Robot Operating System](https://www.ros.org/)
 - [*Embedded Software Development for Safety Critical Systems* by Chris Hobbs](https://www.amazon.com/Embedded-Software-Development-Safety-Critical-Systems/dp/1498726704). (this is not an affiliate link)
+- [Software Model Chekcing with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
 
 
 # AV Companies
@@ -75,5 +89,6 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 ### Rivian
 ### HARMAN International
 ### May Mobility
+### nuro
 
 # What can you do now?
