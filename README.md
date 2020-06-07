@@ -1,4 +1,4 @@
-# Autonomous Vehicles Software Development Guide :car:
+# Autonomous Vehicle Software Development Guide :car:
 Welcome! This is the ultimate autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*. As an open source project that is continuously updating and improving, we are hoping to provide high-quality, free education for those interested in learning more about autonomous vehicle software development. 
 
 > An autonomous car is a vehicle capable of sensing its environment and operating without human involvement. A human passenger is not required to take control of the vehicle at any time, nor is a human passenger required to be present in the vehicle at all. An autonomous car can go anywhere a traditional car goes and do everything that an experienced human driver does.
@@ -23,7 +23,7 @@ Make the changes on your forked version, and then submit a pull request which wi
 View the complete contribution guidelines, [here](contributing.md).
 
 # Why Autonomous Vehicles?
-Maybe you like cars. Maybe you want to find work. Maybe you want to define the future of autonomy. Maybe you want to create a personal project for your resume. Regardless of your purpose for starting this guide, there are four key things I want to highlight that should be a part of your *why*. 
+Maybe you like cars. Maybe you want to find work. Maybe you want to define the future of autonomy. Maybe you want to create a personal project for your resume. Regardless of your reason for starting this guide, there are four key things I want to highlight that should be a part of your *why*. 
 
 ## Motivation :muscle: ##
 > "*Whether you think you can, or think you can't, you're right*." - Henry Ford
@@ -73,7 +73,7 @@ For those who are computer science students at a university or a software engine
 - [Carla- Open Source Simulator for AVs](https://carla.org/)
 - [ROS- Robot Operating System](https://www.ros.org/)
 - [*Embedded Software Development for Safety Critical Systems* by Chris Hobbs](https://www.amazon.com/Embedded-Software-Development-Safety-Critical-Systems/dp/1498726704). (this is not an affiliate link)
-- [Software Model Chekcing with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
+- [Software Model Checking with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
 
 
 # AV Companies
