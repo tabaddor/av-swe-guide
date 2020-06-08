@@ -30,7 +30,7 @@ Maybe you like cars. Maybe you want to find work. Maybe you want to define the f
 
 > "*Self-driving cars are the natural extension of active safety and obviously something we should do*." - Elon Musk
 
-Autonomous vehicle research and development is really cool work. And I mean really cool. Whether you like it or not, we are not very far away from fleets of AVs ruling the roads. We are still many years away, but this is the best time to contribute to this growing field. 
+Autonomous vehicle research and development is really cool work. And I mean really cool. Whether you like it or not, fleets of AVs will rule the streets in the future. We still have a long way to go, however, but this vision will very much become a reality. 
 
 ## The Future :zap: ##
 Like stated above, fleets of fully autonomous vehicles will become a reality in the future (~ 10-20 years), and designing, developing, and building the tools and software behind these machines is work that will be monumental in the future. And you can get started making an impact today. 
@@ -39,8 +39,7 @@ Like stated above, fleets of fully autonomous vehicles will become a reality in 
 One of the most important factors in developing autonomous vehicles, or any autonomous system for that matter, is safety. Remember this, safety is critical, safety is critical, safety is critial. There are safety standards in place, however, there are still so many edge scenarios and possible situations, objects, etc that developers and companies need to continuously account for. Essentially, there is no bound to what can occur. Between pedestrians sprinting acorss the street, human driver on autonmous driver accidents, and more, it is important to design and develop for safety. This is the main factor that is preventing fleets of autonomous vehicles from hitting the road today. 
 
 ## High Impact Work :arrow_up_small: ##
-And lastly, this is high impact work for you as a computer science student and software engineer. Yeah it's cool to create an app, yeah it's cool to work for FaceBook, but nothing beats real, high impact work, and working on autonomous vehicles is one such example.
-
+And lastly, as a computer science student or software engineer, you have a chance to contribute to truly high impact work in a high impact area. Working for companies like Facebook don't provide you with this ability to make a direct and lasting impact in people's live, unless you consider selling people's data high impact work. Anyways, the area of autonomous vehicles is just picking up and has the potential to change lives and the world as we know it. 
 
 # Getting Started & Pre-requisites
 For those who are computer science students at a university or a software engineer, it is assumed you have basic data structures and algorthms knowledge. Regardless, this learning guide is for everyone, so below, I have compiled basic knowledge that is important before embarking on this awesome guide. 
@@ -54,6 +53,14 @@ For those who are computer science students at a university or a software engine
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
 
 # Table of Contents
+- [Introduction]()
+- [Software and Hardware]()
+- [Developing for Safety]()
+- [State Estimation and Localization]()
+- [Perception]()
+- [Motion Planning]()
+- [Testing]()
+
 ## 1. Introduction ##
 
 ## 2. Software and Hardware ##
