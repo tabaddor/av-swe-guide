@@ -39,7 +39,7 @@ Lorem Ipsum Dolor
 Lorem Ipsum Dolor
 
 ## Safety is Critical :vertical_traffic_light: ##
-One of the most important factors in developing autonomous vehicles, or any autonomous system for that matter, is safety. Remember this, safety is critical, safety is critical, safety is critial. There are safety standards in place, however, there are still so many edge scenarios and possible situations, objects, etc that developers and companies need to continuously account for. Essentially, there is no bound to what can occur. Between pedestrians sprinting acorss the street, human driver on autonmous driver accidents, and more, it is important to design and develop for safety. This is the main factor that is preventing fleets of autonomous vehicles from hitting the road today. 
+Lorem Ipsum Dolor
 
 ## High Impact Work :arrow_up_small: ##
 Lorem Ipsum Dolor
@@ -86,7 +86,7 @@ For those who are computer science students at a university or a software engine
 - [Software Model Checking with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
 
 
-# AV Companies
+# AV Companies :briefcase:
 A list of companies working on autonomous vehicle technologies. The purpose of this section is to include any relevant information about the companies and any open internship and full-time positions. Don't see your company or a position? Submit an issue or pull request!
 ### Waymo
 ### Cruise (GM)
