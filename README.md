@@ -25,6 +25,13 @@ View the complete contribution guidelines, [here](contributing.md).
 #### Wait! Don't forget to give this project a star! ####
 ![recording](https://user-images.githubusercontent.com/44756122/84942050-449b9100-b0b0-11ea-9a2c-5736759b25e9.gif)
 
+# Getting Started w/ the Guide :tada:
+### Introduction ###
+### Navigating ###
+### Sections ###
+### Tutorials ###
+### Community ###
+
 # Why Autonomous Vehicles?
 Lorem Ipsum Dolor
 
@@ -44,7 +51,7 @@ Lorem Ipsum Dolor
 ## High Impact Work :arrow_up_small: ##
 Lorem Ipsum Dolor
 
-# Getting Started & Pre-requisites
+# Pre-requisites
 For those who are computer science students at a university or a software engineer, it is assumed you have basic data structures and algorthms knowledge. Regardless, this learning guide is for everyone, so below, I have compiled basic knowledge that is important before embarking on this awesome guide. 
 
 - [ ] [Linear Algebra by MIT OpenCourseware](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
