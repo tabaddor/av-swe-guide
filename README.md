@@ -27,10 +27,19 @@ View the complete contribution guidelines, [here](contributing.md).
 
 # Getting Started w/ the Guide :tada:
 ### Introduction ###
+Lorem Ipsum Dolor
+
 ### Navigating ###
+Lorem Ipsum Dolor
+
 ### Sections ###
+Lorem Ipsum Dolor
+
 ### Tutorials ###
+Lorem Ipsum Dolor
+
 ### Community ###
+Lorem Ipsum Dolor
 
 # Why Autonomous Vehicles?
 Lorem Ipsum Dolor
@@ -91,6 +100,7 @@ For those who are computer science students at a university or a software engine
 - [ROS- Robot Operating System](https://www.ros.org/)
 - [*Embedded Software Development for Safety Critical Systems* by Chris Hobbs](https://www.amazon.com/Embedded-Software-Development-Safety-Critical-Systems/dp/1498726704). (this is not an affiliate link)
 - [Software Model Checking with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
+- [Phil Koopman](https://www.youtube.com/channel/UC7QA0wx1m_aLyctDusU4X7g)
 
 
 # AV Companies :briefcase:

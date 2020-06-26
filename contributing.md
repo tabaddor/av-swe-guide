@@ -10,6 +10,8 @@ No affiliate links will and should be linked in any part of this project.
 ## How can I contribute? ##
 Any contribution that fixes a typo, implements a feature, enhances documentation, etc is welcome. However, be sure to follow these guidelines to ensure you are properly submitting an issue and resolving an issue.
 
+After substantial contributions and help in the community, @tabaddor will invite collaborators to the repo. Only @tabaddor may decide upon invitations. 
+
 #### Fork the Repo ####
 First, fork the repository and clone your fork.
 ```
@@ -41,7 +43,7 @@ For more information, check [this](https://opensource.com/article/19/7/create-pu
 First time contributors are very much welcome! Please look for the `good first issue` label which can be found [here](https://github.com/tabaddor/av-guide/labels/good%20first%20issue)!
 
 ## Our Vision :eyeglasses: ##
-Subject to change, but, we want to become the ultiamte, free, ever-growing resource for computer science students and software engineers to develop foundational skills when working on autonomous systems. :sunglasses::v:
+Subject to change, but, we want to become the ultimate, free, ever-growing resource for computer science students and software engineers to develop foundational skills when working on autonomous systems. :sunglasses::v:
 
 ## Style Guides ##
 Lorem Ipsum Dolor. Update soon.
