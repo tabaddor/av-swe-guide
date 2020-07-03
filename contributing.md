@@ -10,7 +10,7 @@ No affiliate links will and should be linked in any part of this project.
 ## How can I contribute? ##
 Any contribution that fixes a typo, implements a feature, enhances documentation, etc is welcome. However, be sure to follow these guidelines to ensure you are properly submitting an issue and resolving an issue.
 
-After substantial contributions and help in the community, @tabaddor will invite collaborators to the repo. Only @tabaddor may decide upon invitations. 
+After substantial contributions and help in the community, [@tabaddor](https://github.com/tabaddor) will invite collaborators to the repo. Only [@tabaddor](https://github.com/tabaddor) may decide upon invitations. 
 
 #### Fork the Repo ####
 First, fork the repository and clone your fork.

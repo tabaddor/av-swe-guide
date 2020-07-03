@@ -66,7 +66,7 @@ For those who are computer science students at a university or a software engine
 - [ ] [Linear Algebra by MIT OpenCourseware](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
 - [ ] [C++](https://www.learncpp.com/) and/or [Python](https://www.coursera.org/specializations/python) programming is expected
 - [ ] Data Structures and Algorithms (Cracking the Coding Interview (book) **and/or** [Stanford's Algorithm Course](https://www.coursera.org/specializations/algorithms))
-- [ ] [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) **and/or** Hands On Machine Learning with Scikit-Learn & Tensor Flow (book)
+- [ ] [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) **and/or** Hands On Machine Learning with Scikit-Learn & Tensor Flow (book) (Recommended, but optional)
 - [ ] Basic Git & Linux Command Knowledge (Optional)
 - [ ] Basic [Software Development](https://www.ibm.com/topics/software-development) Knowledge (Optional)
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
@@ -75,6 +75,7 @@ For those who are computer science students at a university or a software engine
 - [Introduction]()
 - [Software and Hardware]()
 - [Developing for Safety]()
+- [Deep Learning for Self-Driving Cars]()
 - [State Estimation and Localization]()
 - [Perception]()
 - [Motion Planning]()
@@ -86,13 +87,15 @@ For those who are computer science students at a university or a software engine
 
 ## 3. Developing for Safety ##
 
-## 4. State Estimation and Localization ##
+## 4. Deep Learning for Self-Driving Cars ##
 
-## 5. Perception ##
+## 5. State Estimation and Localization ##
 
-## 6. Motion Planning ##
+## 6. Perception ##
 
-## 7. Testing ##
+## 7. Motion Planning ##
+
+## 8. Testing ##
 
 
 # Resources
@@ -101,6 +104,7 @@ For those who are computer science students at a university or a software engine
 - [*Embedded Software Development for Safety Critical Systems* by Chris Hobbs](https://www.amazon.com/Embedded-Software-Development-Safety-Critical-Systems/dp/1498726704). (this is not an affiliate link)
 - [Software Model Checking with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
 - [Phil Koopman](https://www.youtube.com/channel/UC7QA0wx1m_aLyctDusU4X7g)
+- [Deep Learning with Lex Fridman](https://www.youtube.com/watch?v=0VH1Lim8gL8&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf&index=1)
 
 
 # AV Companies :briefcase:
