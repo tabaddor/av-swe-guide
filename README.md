@@ -85,15 +85,15 @@ Though a seemingly bold claim, autonomous vehicles *will* be the future of mobil
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
 >  comprises everything (hardware, software, and human aspects) needed to perform one or more safety functions, in which failure would cause a significant increase in the safety risk for the people or environment involved.
 
-It is easy to acknowledge that autonomous vehicles need to be safe, but as a developer or someone working on self-driving systems, this is  incredibly important to keep in mind. Workng with safety critical systems differs greatly from working on a web system. A bug in a web app may prevent users from registering for an account, but a bug in a safety critical system, like a self-driving car, _may result in human fatality unfortunately_. 
+It is easy to acknowledge that autonomous vehicles need to be safe, but as a developer or someone working on self-driving systems, this is  incredibly important to keep in mind. Working with safety critical systems differs greatly from working on a web system. A bug in a web app may prevent users from registering for an account, but a bug in a safety critical system, like a self-driving car, _may result in human fatality unfortunately_. 
 <a href="url"><img src="https://user-images.githubusercontent.com/44756122/86859632-139bf400-c091-11ea-917a-1a7d98f841fb.png" align="center" height="300" width="500" ></a>
 
 #### IOS 26262 Safety Standard ####
-To mititage risk for developers, teams and companies developing safety critical systems typically have to follow safety standards, such as ISO 26262.
+To mitigate risk for developers, teams and companies developing safety critical systems typically have to follow safety standards, such as ISO 26262.
 [ISO 26262](https://www.iso.org/standard/43464.html) is one of the more well-known safety standards that you should be aware of regarding autonomous vehicles. 
 
 I recommend briefly skimming through [ISO 26262](https://www.iso.org/standard/43464.html) to get an idea of the standard, but to summarize some key points:
-* The goal is to ensure safety throughout the lifecycle of automotive sytem development
+* The goal is to ensure safety throughout the lifecycle of automotive system development
 * Code you write as a developer must be in line with the safety standard (companies and teams specify this for you)
 * There are specific steps of ISO 26262, and other standards, that are required in each phase of the software development lifecycle
 
