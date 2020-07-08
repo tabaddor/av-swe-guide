@@ -53,24 +53,40 @@ For those who are computer science students at a university or a software engine
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
 
 # Why Autonomous Vehicles?
-Lorem Ipsum Dolor
+Your reasons for using this guide will be unique to you. For me, it was the awe and pure challenge of making a car drive on its own, while also improving my career prospects. A simple reason, which is completely fine. Regardless of your reason for using this guide, here's some motivation and concepts I hope will inspire you even more.
 
 ## Motivation :muscle: ##
 > "*Whether you think you can, or think you can't, you're right*." - Henry Ford
 
 > "*Self-driving cars are the natural extension of active safety and obviously something we should do*." - Elon Musk
 
-Lorem Ipsum Dolor
+As one of the most debated, challenging, and impactful piece of technology in the automotive industry, developing software for such systems is exciting. Some call self driving car technology the 21st Century Gold Rush.
+
+- **WIRED ARTICLE**: [Self Driving Cars](https://www.wired.com/story/guide-self-driving-cars/)
+- **WEBSITE Page**: [The Ethics of Autonomous Cars](https://ethicsofautonomouscars.weebly.com/ethics.html)
+- **RESEARCH PAPER**: [A survey of public opinion about self driving vehicles](https://deepblue.lib.umich.edu/handle/2027.42/108384)
+- **VIDEO**: [Tesla Self Driving Car Timelapse Drive](https://www.youtube.com/watch?v=tlThdr3O5Qo)
+
 
 ## Our Future :zap: ##
-Lorem Ipsum Dolor
+Throughout this guide, it is my goal to provide relevant concepts in psychology and philosophy, as artificial intelligence, AVs, and computer science intersect. One podcast/video I will recommend you watch that I think sheds some light on the future of artificial intelligence and self driving cars is Lex Fridman's interview with Elon Musk.
+
+[The Artificial Intelligence Podcast: Lex Fridman and Elon Musk](https://www.youtube.com/watch?v=dEv99vxKjVI) :robot:
+
+Some key take-aways and quotes from the podcast (thought I highly recommend you listen to it):
+
+1. Lorem Ipsum Dolor 
+2. Lorem Ipsum Dolor 
+3. Lorem Ipsum Dolor
+
+Though a seemingly bold claim, autonomous vehicles *will* be the future of mobility and transportation. **You can contribute to this future**, which is awesome.
 
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
 >  comprises everything (hardware, software, and human aspects) needed to perform one or more safety functions, in which failure would cause a significant increase in the safety risk for the people or environment involved.
 
-It is easy to acknowledge that autonomous vehicles need to be safe, but as a developer or someone working on self-driving systems, this is  incredibly important to keep in mind. Workng with safety critical systems differs greatly from working on a web system. A bug in a web application may prevent users from registering for an account, but a bug in a safety critical system, like a self-driving car, may result in human fatality unfortunately. 
-![safety-critical-diagram](https://user-images.githubusercontent.com/44756122/86859632-139bf400-c091-11ea-917a-1a7d98f841fb.png)
+It is easy to acknowledge that autonomous vehicles need to be safe, but as a developer or someone working on self-driving systems, this is  incredibly important to keep in mind. Workng with safety critical systems differs greatly from working on a web system. A bug in a web app may prevent users from registering for an account, but a bug in a safety critical system, like a self-driving car, _may result in human fatality unfortunately_. 
+<a href="url"><img src="https://user-images.githubusercontent.com/44756122/86859632-139bf400-c091-11ea-917a-1a7d98f841fb.png" align="center" height="300" width="500" ></a>
 
 #### IOS 26262 Safety Standard ####
 To mititage risk for developers, teams and companies developing safety critical systems typically have to follow safety standards, such as ISO 26262.
@@ -83,13 +99,13 @@ I recommend briefly skimming through [ISO 26262](https://www.iso.org/standard/43
 
 _Standards aid in making sure the code you write as a developer is carefully evaluated, inspected by others, and tested during the development process to mitigate risk_. This is an essential component of software engineering for any safety critical system, as a lot of emphasis is placed on "careful coding."
 
-One way to look at the challenge of developing self-driving cars is that it seems as if there are "infinite" edge cases. Though we are developing smarter machine learning pipelines and deep learning techniques, the software is not perfect. Human behavior can be unpredictable at times, and it is especially hard for a machine to predict and completely understand everything  in its environment right now. This is exciting, yet one of the bigger challenges that self-driving cars face.
+One way to look at the challenge of developing self-driving cars is that it seems as if there are "infinite" edge cases. This is exciting, yet one of the bigger challenges that self-driving cars face.
 
 **VIDEO**: [The Real Moral Dilemma of Self Driving Cars](https://www.youtube.com/watch?v=WBjY3QGNdAw)
 
 #### Example of a Safety Critical System for Self-Driving Cars ####
 * [Advanced Driver Assistance Systems (ADAS)](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)
-<a href="url"><img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" align="center" height="400" width="600" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" height="300" width="500" ></a>
 
 Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch?v=GInSPWZRFRM) and [pedestrian crash prevention](https://www.iihs.org/news/detail/performance-of-pedestrian-crash-prevention-varies-among-midsize-cars). Companies are putting a lot of investment in ADAS, as these systems will be a major component of self-driving cars.
 
@@ -97,7 +113,6 @@ Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch
 
 ## High Impact Work :arrow_up_small: ##
 Lorem Ipsum Dolor
-
 
 # Table of Contents
 - [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
