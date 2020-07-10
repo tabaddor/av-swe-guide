@@ -4,6 +4,20 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 > An autonomous car is a vehicle capable of sensing its environment and operating without human involvement. A human passenger is not required to take control of the vehicle at any time, nor is a human passenger required to be present in the vehicle at all. An autonomous car can go anywhere a traditional car goes and do everything that an experienced human driver does.
 [source](https://www.synopsys.com/automotive/what-is-autonomous-car.html)
 
+# Table of Contents
+- [ ] [How to Contribute/Guidelines](https://github.com/tabaddor/av-swe-guide#how-to-contribute)
+- [ ] [Getting Started](https://github.com/tabaddor/av-swe-guide#getting-started-w-the-guide-tada)
+- [ ] [Prerequisite Resources](https://github.com/tabaddor/av-swe-guide#pre-requisites)
+- [ ] [Autonomous Vehicles Motivation](https://github.com/tabaddor/av-swe-guide#why-autonomous-vehicles)
+- [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
+- [ ] [Software and Hardware](https://github.com/tabaddor/av-swe-guide#2-software-and-hardware)
+- [ ] [Developing for Safety](https://github.com/tabaddor/av-swe-guide#3-developing-for-safety)
+- [ ] [Deep Learning for Self-Driving Cars](https://github.com/tabaddor/av-swe-guide#4-deep-learning-for-self-driving-cars)
+- [ ] [State Estimation and Localization](https://github.com/tabaddor/av-swe-guide#5-state-estimation-and-localization)
+- [ ] [Perception](https://github.com/tabaddor/av-swe-guide#6-perception)
+- [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
+- [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
+
 # How to Contribute
 :white_check_mark: This is an open source guide, so contributions are very much welcome. To contribute:
 
@@ -30,16 +44,32 @@ View the complete contribution guidelines, [here](contributing.md).
 Lorem Ipsum Dolor
 
 ### Navigating ###
-Lorem Ipsum Dolor
+Navigating this project should be fairly straightforward and simple. But, to help you along any struggles along the way, here is how to navigate to some specific things:
+
+#### README Document ####
+
+#### Contributing Document ####
+
+#### Tutorials ####
+
+#### Issues ####
+
+#### Other Resources ####
 
 ### Sections ###
-Lorem Ipsum Dolor
+The table of contents of this guide is [here](https://github.com/tabaddor/av-swe-guide#table-of-contents) in this README document. Feel free to jump around from section to section,
+or skim through a section's resource. These sections will be continuously updating and improving with new material and resources. 
 
-### Tutorials ###
-Lorem Ipsum Dolor
+### Tutorials :book: :robot: ###
+To work directly with the tutorials make sure you clone the entire repository, do not try to clone an individual tutorial directory. Help navigating to the tutorials can be found (https://github.com/tabaddor/av-swe-guide#navigating).
 
-### Community ###
-Lorem Ipsum Dolor
+The purpose of the tutorials is to provide hands-on learning working with tools and technologies covered in or related to material in the guide contents. For example, though Robot Operating System (ROS) is not explicity covered in a dedicated section, it's a popular middleware used in robotics that's a handy thing to know.
+
+_Have a suggestion for a tutorial not covered? Want to suggest an edit for a current tutorial?_ Submit and issue and pull request!
+
+### Community :speech_balloon: ###
+As this community grows, [@tabaddor](https://github.com/tabaddor) will look into creating a community Slack and/or Discord. For the time being, all communication will be exclusively 
+on GitHub.
 
 # Pre-Requisites
 For those who are computer science students at a university or a software engineer, it is assumed you have basic data structures and algorthms knowledge. Regardless, this learning guide is for everyone, so below, I have compiled basic knowledge that is important before embarking on this awesome guide. 
@@ -121,16 +151,6 @@ Software engineers working on self driving cars will:
 
 Pumped yet? :muscle:
 
-# Table of Contents
-- [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
-- [ ] [Software and Hardware](https://github.com/tabaddor/av-swe-guide#2-software-and-hardware)
-- [ ] [Developing for Safety](https://github.com/tabaddor/av-swe-guide#3-developing-for-safety)
-- [ ] [Deep Learning for Self-Driving Cars](https://github.com/tabaddor/av-swe-guide#4-deep-learning-for-self-driving-cars)
-- [ ] [State Estimation and Localization](https://github.com/tabaddor/av-swe-guide#5-state-estimation-and-localization)
-- [ ] [Perception](https://github.com/tabaddor/av-swe-guide#6-perception)
-- [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
-- [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
-
 ## 1. Introduction ##
 
 ## 2. Software and Hardware ##
@@ -173,3 +193,5 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 ### nuro
 
 # What can you do now?
+
+# FAQ
