@@ -6,7 +6,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 
 # Table of Contents
 - [ ] [How to Contribute/Guidelines](https://github.com/tabaddor/av-swe-guide#how-to-contribute)
-- [ ] [Getting Started](https://github.com/tabaddor/av-swe-guide#getting-started-w-the-guide-tada)
+- [ ] [**Getting Started**](https://github.com/tabaddor/av-swe-guide#getting-started-w-the-guide-tada)
 - [ ] [Prerequisite Resources](https://github.com/tabaddor/av-swe-guide#pre-requisites)
 - [ ] [Autonomous Vehicles Motivation](https://github.com/tabaddor/av-swe-guide#why-autonomous-vehicles)
 - [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
@@ -17,6 +17,10 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 - [ ] [Perception](https://github.com/tabaddor/av-swe-guide#6-perception)
 - [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
 - [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
+- [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources)
+- [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
+- [ ] [What can you do now?](https://github.com/tabaddor/av-swe-guide#what-can-you-do-now)
+- [ ] [**FAQ**](https://github.com/tabaddor/av-swe-guide#faq)
 
 # How to Contribute
 :white_check_mark: This is an open source guide, so contributions are very much welcome. To contribute:
@@ -41,27 +45,40 @@ View the complete contribution guidelines, [here](contributing.md).
 
 # Getting Started w/ the Guide :tada:
 ### Introduction ###
-Lorem Ipsum Dolor
+You can use this guide however you like. If you prefer to follow along material by material, go ahead. If you want to skip ahead, come back, skip ahead again, do as you wish. To get started with basic navigation and resources, briefly skim through the below tips.
 
 ### Navigating ###
 Navigating this project should be fairly straightforward and simple. But, to help you along any struggles along the way, here is how to navigate to some specific things:
 
 #### README Document ####
+This [README](https://github.com/tabaddor/av-swe-guide) document is the central documenation for this guide. At the top, is the Table of Contents which you can use as a main directory. 
 
 #### Contributing Document ####
+The [contributing document](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md) provides details regarding contributing guidelines, issues, feature requests, and the repository vision. Before submitting an issue or pull request, please briefly review it.
 
 #### Tutorials ####
+**On the GitHub page, the tutorials can be found in the ['tutorials'](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials) folder**
 
-#### Issues ####
+**To work locally, first clone the repository page**
+```
+cd av-swe-guide/tutorials/<tutorial-name>
+```
+
+#### Issues :exclamation: ####
+Issues regarding typos, feature requests, etc can be found [here](https://github.com/tabaddor/av-swe-guide/issues). Feel free to submit an issue, but make sure you've read through our [contributing guidelines](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md).
 
 #### Other Resources ####
+Other resources outside of the structured roadmap this project compiles include YouTube channels, open source github projects (like Carla simulator). To be specific:
+1. [Resources](https://github.com/tabaddor/av-swe-guide#resources) (Links to YouTube channels, research papers, documentation, GitHub projects, and more that are touched upon in the guide)
+2. [Full-Time and Internship Opportunties](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase) :briefcase:
+3. Self Driving Car Company Developments and Research
 
 ### Sections ###
 The table of contents of this guide is [here](https://github.com/tabaddor/av-swe-guide#table-of-contents) in this README document. Feel free to jump around from section to section,
 or skim through a section's resource. These sections will be continuously updating and improving with new material and resources. 
 
 ### Tutorials :book: :robot: ###
-To work directly with the tutorials make sure you clone the entire repository, do not try to clone an individual tutorial directory. Help navigating to the tutorials can be found (https://github.com/tabaddor/av-swe-guide#navigating).
+To work directly with the tutorials make sure you clone the entire repository, do not try to clone an individual tutorial directory. Help navigating to the tutorials can be found [here](https://github.com/tabaddor/av-swe-guide#navigating).
 
 The purpose of the tutorials is to provide hands-on learning working with tools and technologies covered in or related to material in the guide contents. For example, though Robot Operating System (ROS) is not explicity covered in a dedicated section, it's a popular middleware used in robotics that's a handy thing to know.
 
@@ -111,7 +128,7 @@ Some key take-aways and quotes from the podcast (thought I highly recommend you 
 
 Though a seemingly bold claim, autonomous vehicles *will* be the future of mobility and transportation. **You can contribute to this future**, which is awesome.
 
-Not only that, but they reduce urban travel time and have a strong environmental impact :sunflower:
+Not only that, but they reduce urban travel time and have a strong environmental impact. :sunflower: Here's a google query with some interesting articles about the environmental impact self-driving cars may have ([ENVIRONMENT IMPACTS - GOOGLE QUERY](https://www.google.com/search?client=firefox-b-1-d&q=self+driving+cars+impact+on+environment)).
 
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
@@ -134,6 +151,7 @@ _Standards aid in making sure the code you write as a developer is carefully eva
 One way to look at the challenge of developing self-driving cars is that it seems as if there are "infinite" edge cases. This is exciting, yet one of the bigger challenges that self-driving cars face.
 
 **VIDEO**: [The Real Moral Dilemma of Self Driving Cars](https://www.youtube.com/watch?v=WBjY3QGNdAw)
+**RESEARCH PAPER**" [Self Driving cars and the urban challenge](https://github.com/tabaddor/av-swe-guide#faq)
 
 #### Example of a Safety Critical System for Self-Driving Cars ####
 * [Advanced Driver Assistance Systems (ADAS)](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)
