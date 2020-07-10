@@ -1,4 +1,4 @@
-# Autonomous Vehicle Software Development Guide :car:
+# Software Engineering for Self-Driving Cars Guide :car:
 Welcome! This is the ultimate autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*. As an open source project that is continuously updating and improving, we are hoping to provide high-quality, free education for those interested in learning more about autonomous vehicle software development. 
 
 > An autonomous car is a vehicle capable of sensing its environment and operating without human involvement. A human passenger is not required to take control of the vehicle at any time, nor is a human passenger required to be present in the vehicle at all. An autonomous car can go anywhere a traditional car goes and do everything that an experienced human driver does.
@@ -81,6 +81,8 @@ Some key take-aways and quotes from the podcast (thought I highly recommend you 
 
 Though a seemingly bold claim, autonomous vehicles *will* be the future of mobility and transportation. **You can contribute to this future**, which is awesome.
 
+Not only that, but they reduce urban travel time and have a strong environmental impact :sunflower:
+
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
 >  comprises everything (hardware, software, and human aspects) needed to perform one or more safety functions, in which failure would cause a significant increase in the safety risk for the people or environment involved.
@@ -112,7 +114,12 @@ Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch
 **The gist? Always remember that safety is critical.** If you are interested in learning more about software engineering processes for safety critical systems, I highly recommend you take a look at Phil Koopman's page (linked in the [Resources](https://github.com/tabaddor/av-swe-guide#resources) section).
 
 ## High Impact Work :arrow_up_small: ##
-Lorem Ipsum Dolor
+Software engineers working on self driving cars will:
+* Tackle the hardest challenge of our generation
+* Work with cutting edge technology that will impact the lives and safety of people everywhere
+* Collaborate with the generation's brightest minds in other engineering fields (electrical, mechanical, systems, etc)
+
+Pumped yet? :muscle:
 
 # Table of Contents
 - [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
