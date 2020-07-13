@@ -5,10 +5,12 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 [source](https://www.synopsys.com/automotive/what-is-autonomous-car.html)
 
 # Table of Contents
+## Introduction ##
 - [ ] [How to Contribute/Guidelines](https://github.com/tabaddor/av-swe-guide#how-to-contribute)
 - [ ] [**Getting Started**](https://github.com/tabaddor/av-swe-guide#getting-started-w-the-guide-tada)
 - [ ] [Prerequisite Resources](https://github.com/tabaddor/av-swe-guide#pre-requisites)
 - [ ] [Autonomous Vehicles Motivation](https://github.com/tabaddor/av-swe-guide#why-autonomous-vehicles)
+## Guide ##
 - [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
 - [ ] [Software and Hardware](https://github.com/tabaddor/av-swe-guide#2-software-and-hardware)
 - [ ] [Developing for Safety](https://github.com/tabaddor/av-swe-guide#3-developing-for-safety)
@@ -17,6 +19,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 - [ ] [Perception](https://github.com/tabaddor/av-swe-guide#6-perception)
 - [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
 - [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
+## Resources ##
 - [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources)
 - [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
 - [ ] [What can you do now?](https://github.com/tabaddor/av-swe-guide#what-can-you-do-now)
@@ -59,13 +62,10 @@ The [contributing document](https://github.com/tabaddor/av-swe-guide/blob/master
 #### Tutorials ####
 **On the GitHub page, the tutorials can be found in the ['tutorials'](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials) folder**
 
-**To work locally, first clone the repository page**
+**To work locally, first clone the repository page, and simply cd into the tutorial root directory:**
 ```
 cd av-swe-guide/tutorials/<tutorial-name>
 ```
-
-#### Issues :exclamation: ####
-Issues regarding typos, feature requests, etc can be found [here](https://github.com/tabaddor/av-swe-guide/issues). Feel free to submit an issue, but make sure you've read through our [contributing guidelines](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md).
 
 #### Other Resources ####
 Other resources outside of the structured roadmap this project compiles include YouTube channels, open source github projects (like Carla simulator). To be specific:
@@ -78,17 +78,14 @@ The table of contents of this guide is [here](https://github.com/tabaddor/av-swe
 or skim through a section's resource. These sections will be continuously updating and improving with new material and resources. 
 
 ### Tutorials :book: :robot: ###
-To work directly with the tutorials make sure you clone the entire repository, do not try to clone an individual tutorial directory. Help navigating to the tutorials can be found [here](https://github.com/tabaddor/av-swe-guide#navigating).
-
 The purpose of the tutorials is to provide hands-on learning working with tools and technologies covered in or related to material in the guide contents. For example, though Robot Operating System (ROS) is not explicity covered in a dedicated section, it's a popular middleware used in robotics that's a handy thing to know.
 
 _Have a suggestion for a tutorial not covered? Want to suggest an edit for a current tutorial?_ Submit and issue and pull request!
 
 ### Community :speech_balloon: ###
-As this community grows, [@tabaddor](https://github.com/tabaddor) will look into creating a community Slack and/or Discord. For the time being, all communication will be exclusively 
-on GitHub.
+As this community grows, [@tabaddor](https://github.com/tabaddor) will look into creating a community Slack and/or Discord. For the time being, all communication will be exclusively on GitHub.
 
-# Pre-Requisites
+# Pre-Requisites (and resources)
 For those who are computer science students at a university or a software engineer, it is assumed you have basic data structures and algorthms knowledge. Regardless, this learning guide is for everyone, so below, I have compiled basic knowledge that is important before embarking on this awesome guide. 
 
 - [ ] [Linear Algebra by MIT OpenCourseware](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
@@ -116,15 +113,11 @@ As one of the most debated, challenging, and impactful piece of technology in th
 
 
 ## Our Future :zap: ##
-Throughout this guide, it is my goal to provide relevant concepts in psychology and philosophy, as artificial intelligence, AVs, and computer science intersect. One podcast/video I will recommend you watch that I think sheds some light on the future of artificial intelligence and self driving cars is Lex Fridman's interview with Elon Musk.
+Throughout this guide, it is my goal to provide relevant concepts in psychology and philosophy, as artificial intelligence, AVs, and computer science all intersect in some aspects. One podcast I recommend you listen to is Lex Fridman's interview with Elon Musk.
 
-[The Artificial Intelligence Podcast: Lex Fridman and Elon Musk](https://www.youtube.com/watch?v=dEv99vxKjVI) :robot:
+**VIDEO/PODCAST:** [The Artificial Intelligence Podcast: Lex Fridman and Elon Musk](https://www.youtube.com/watch?v=dEv99vxKjVI) :robot:
 
-Some key take-aways and quotes from the podcast (thought I highly recommend you listen to it):
-
-1. Lorem Ipsum Dolor 
-2. Lorem Ipsum Dolor 
-3. Lorem Ipsum Dolor
+**Take advantage of the resources related to psychology/philosphy!**
 
 Though a seemingly bold claim, autonomous vehicles *will* be the future of mobility and transportation. **You can contribute to this future**, which is awesome.
 
@@ -157,7 +150,7 @@ One way to look at the challenge of developing self-driving cars is that it seem
 * [Advanced Driver Assistance Systems (ADAS)](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)
 <a href="url"><img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" height="300" width="500" ></a>
 
-Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch?v=GInSPWZRFRM) and [pedestrian crash prevention](https://www.iihs.org/news/detail/performance-of-pedestrian-crash-prevention-varies-among-midsize-cars). Companies are putting a lot of investment in ADAS, as these systems will be a major component of self-driving cars.
+Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch?v=GInSPWZRFRM) and [pedestrian crash prevention](https://www.iihs.org/news/detail/performance-of-pedestrian-crash-prevention-varies-among-midsize-cars). 
 
 **The gist? Always remember that safety is critical.** If you are interested in learning more about software engineering processes for safety critical systems, I highly recommend you take a look at Phil Koopman's page (linked in the [Resources](https://github.com/tabaddor/av-swe-guide#resources) section).
 
@@ -211,5 +204,20 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 ### nuro
 
 # What can you do now?
+Some inspirational, yet concrete advice coming your way. Lorem Ipsum Dolr.
 
-# FAQ
+# FAQ :speech_balloon:
+#### Q: Who can use this guide? ####
+A:
+
+#### Q: How do I get started with this guide and roadmap? ####
+A:
+
+#### Q: Can I download this guide? ####
+A: 
+
+#### Q: I have a suggestion, how can I contribute to this guide? ####
+A:
+
+#### Q: I don't know much about computer science/software, how can I still use this? ####
+A:
