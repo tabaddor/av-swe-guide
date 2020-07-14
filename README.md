@@ -185,9 +185,7 @@ Below is an image of the various sensors in Google's self driving car. **Sensors
 
 <img src="https://user-images.githubusercontent.com/44756122/87368706-6c193880-c54c-11ea-82c3-6b2f1311be8f.png" style="height: 650px; width: 800px;" />
 
-**ARTICLE:** [Public Health, Ethics, and Autonomous Vehicles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5343691/)
-
-**Self Drivivng Car Terminoloy:**
+**Basic Terminoloy:**
 - **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
 - **Computer Vision (Perception):** A field of artificial intelligence that trains computers to interpret and understand the visual world.
 - **LiDar vs. Radar:** _LiDar_ is a method for measuring distances by illuminating the target with laser light and measure the reflection with a sensor. _Radar_ uses
@@ -200,11 +198,13 @@ radio waves to achieve the same task. [LiDar vs Radar for Applied Autonomy](http
 - **Connected Vehicle:** A car that can communicate with other systems outside of the car. Most cars are connected these days in some shape or form.
 [A complete gloassary of Automated Vehicle Terms](http://www.cts.virginia.edu/wp-content/uploads/2018/03/Glossary-of-CAV-Terms-Ver1.0-03052018-1.pdf)
 
-To sum it up:
+Summary:
 - [ ] [Self-Driving Car](https://en.wikipedia.org/wiki/Self-driving_car)
+- [ ] [Public Health, Ethics, and Autonomous Vehicles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5343691/)
 - [ ] State of the Art: Self-Driving Cars (**CLICK ON VIDEO BELOW**)
 
 [![Lex Fridman Self Driving Cars State of the Art](https://user-images.githubusercontent.com/44756122/87369420-73d9dc80-c54e-11ea-9b6e-0b6d51f0098d.jpg)](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
+
 
 ## 2. Software and Hardware ##
 
@@ -228,6 +228,7 @@ To sum it up:
 - [Software Model Checking with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
 - [Phil Koopman](https://www.youtube.com/channel/UC7QA0wx1m_aLyctDusU4X7g)
 - [Deep Learning with Lex Fridman](https://www.youtube.com/watch?v=0VH1Lim8gL8&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf&index=1)
+- [openpilot: Open Source Driver Assistance Software](https://comma.ai/)
 
 
 # AV Companies :briefcase:
