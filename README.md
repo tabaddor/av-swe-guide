@@ -8,7 +8,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 ## Introduction ##
 - [ ] [How to Contribute/Guidelines](https://github.com/tabaddor/av-swe-guide#how-to-contribute)
 - [ ] [**Getting Started**](https://github.com/tabaddor/av-swe-guide#getting-started-w-the-guide-tada)
-- [ ] [Prerequisite Resources](https://github.com/tabaddor/av-swe-guide#pre-requisites)
+- [ ] [Prerequisite Resources](https://github.com/tabaddor/av-swe-guide#pre-requisites-and-resources)
 - [ ] [Autonomous Vehicles Motivation](https://github.com/tabaddor/av-swe-guide#why-autonomous-vehicles)
 ## Guide ##
 - [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
@@ -19,7 +19,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 - [ ] [Perception](https://github.com/tabaddor/av-swe-guide#6-perception)
 - [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
 - [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
-## Resources ##
+## Resources/FAQ ##
 - [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources)
 - [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
 - [ ] [What can you do now?](https://github.com/tabaddor/av-swe-guide#what-can-you-do-now)
@@ -128,7 +128,7 @@ Self-driving cars are safety critical. **_A safety critical system_** can be def
 >  comprises everything (hardware, software, and human aspects) needed to perform one or more safety functions, in which failure would cause a significant increase in the safety risk for the people or environment involved.
 
 It is easy to acknowledge that autonomous vehicles need to be safe, but as a developer or someone working on self-driving systems, this is  incredibly important to keep in mind. Working with safety critical systems differs greatly from working on a web system. A bug in a web app may prevent users from registering for an account, but a bug in a safety critical system, like a self-driving car, _may result in human fatality unfortunately_. 
-<a href="url"><img src="https://user-images.githubusercontent.com/44756122/86859632-139bf400-c091-11ea-917a-1a7d98f841fb.png" align="center" height="300" width="500" ></a>
+<img src="https://user-images.githubusercontent.com/44756122/86859632-139bf400-c091-11ea-917a-1a7d98f841fb.png" align="center" height="650px" width="800px" >
 
 #### IOS 26262 Safety Standard ####
 To mitigate risk for developers, teams and companies developing safety critical systems typically have to follow safety standards, such as ISO 26262.
@@ -148,7 +148,7 @@ One way to look at the challenge of developing self-driving cars is that it seem
 
 #### Example of a Safety Critical System for Self-Driving Cars ####
 * [Advanced Driver Assistance Systems (ADAS)](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)
-<a href="url"><img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" height="300" width="500" ></a>
+<img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" height="650px" width="800px" 
 
 Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch?v=GInSPWZRFRM) and [pedestrian crash prevention](https://www.iihs.org/news/detail/performance-of-pedestrian-crash-prevention-varies-among-midsize-cars). 
 
@@ -163,6 +163,48 @@ Software engineers working on self driving cars will:
 Pumped yet? :muscle:
 
 ## 1. Introduction ##
+This introductory section will provide high level overviews about the history of autonomous vehicles, basic autonomous vehicle taxonomy/terminology, and the current state of self-driving cars. This section is not overly technical, but interesting and important nonetheless.
+
+Below is a typical software stack for a self-driving car. It should be pretty self-explanatory, however, **don't get bogged down in the details**, it _will_ all fit together at the end (taken from Hyundai-Aptiv Webinar).
+
+![hyundai-aptiv-webinar-softwarestack](https://user-images.githubusercontent.com/44756122/87368175-efd22580-c54a-11ea-95a1-c39cd482e9e3.PNG)
+
+#### History of Autonomous Vehicles :scroll: ####
+- [ ] [A Brief History of Autonomous Vehicle Technology](https://www.wired.com/brandlab/2016/03/a-brief-history-of-autonomous-vehicle-technology/)
+- [ ] [The Story of Autonomous Vehicles](https://www.coursera.org/lecture/intro-self-driving-cars/the-story-of-autonomous-vehicles-pEfib)
+
+#### Taxonomy ####
+- [ ] [How do self-driving cars work?](https://robohub.org/how-do-self-driving-cars-work/)
+- [ ] [Taxonomy of driving](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-taxonomy-of-driving-BdNR6)
+- [ ] [Driving Decisions and Actions](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-3-driving-decisions-and-actions-vPSnD)
+
+#### Levels of Autonomy ####
+![levelsofautonomy](https://user-images.githubusercontent.com/44756122/87369758-3fb2eb80-c54f-11ea-9fe0-67e8e4c5c813.png)
+
+Below is an image of the various sensors in Google's self driving car. **Sensors** are devices which mesaure some sort of physical property and records or responds to the data.
+
+<img src="https://user-images.githubusercontent.com/44756122/87368706-6c193880-c54c-11ea-82c3-6b2f1311be8f.png" style="height: 650px; width: 800px;" />
+
+**ARTICLE:** [Public Health, Ethics, and Autonomous Vehicles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5343691/)
+
+**Self Drivivng Car Terminoloy:**
+- **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
+- **Computer Vision (Perception):** A field of artificial intelligence that trains computers to interpret and understand the visual world.
+- **LiDar vs. Radar:** _LiDar_ is a method for measuring distances by illuminating the target with laser light and measure the reflection with a sensor. _Radar_ uses
+radio waves to achieve the same task. [LiDar vs Radar for Applied Autonomy](https://semcon.com/offerings/applied-autonomy/lidar-vs-radar-for-applied-autonomy/)
+- **Controls:** Manipulation of forces by way of steering, braking, etc. Needed to execute guidance commands to maintain vehicle stability.
+- **Planning:** Planning a path, mission, or behavior of the vehicle and predictions of its surrounding.
+- **Mobility as a Service (MaaS):** A shift from personally-owned modes of transportation and towards mobility provided as a servie.
+- **OTA Software Update:** Distributing new software over an encrypted network. Tesla does this with their vehicle fleets.
+- **ADAS:** Advanced Driver Assistance Systems. Electronic systems that help the vehicle driver while driving or during parking.
+- **Connected Vehicle:** A car that can communicate with other systems outside of the car. Most cars are connected these days in some shape or form.
+[A complete gloassary of Automated Vehicle Terms](http://www.cts.virginia.edu/wp-content/uploads/2018/03/Glossary-of-CAV-Terms-Ver1.0-03052018-1.pdf)
+
+To sum it up:
+- [ ] [Self-Driving Car](https://en.wikipedia.org/wiki/Self-driving_car)
+- [ ] State of the Art: Self-Driving Cars (**CLICK ON VIDEO BELOW**)
+
+[![Lex Fridman Self Driving Cars State of the Art](https://user-images.githubusercontent.com/44756122/87369420-73d9dc80-c54e-11ea-9b6e-0b6d51f0098d.jpg)](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
 
 ## 2. Software and Hardware ##
 
@@ -204,20 +246,21 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 ### nuro
 
 # What can you do now?
-Some inspirational, yet concrete advice coming your way. Lorem Ipsum Dolr.
+Some inspirational, yet concrete advice coming your way. Lorem Ipsum Dolor.
 
 # FAQ :speech_balloon:
 #### Q: Who can use this guide? ####
-A:
+A: This guide is mainly geared towards computer science students and software engineers looking to learn more about the self-driving car industry. With that said, 
+anyone is welcome to embark on the guide, just make sure you have an understanding of the [pre-requisites](https://github.com/tabaddor/av-swe-guide#pre-requisites-and-resources).
 
 #### Q: How do I get started with this guide and roadmap? ####
-A:
+A: Get started [here](https://github.com/tabaddor/av-swe-guide#software-engineering-for-self-driving-cars-guide-car)! Have fun learning! Official guide content starts [here](https://github.com/tabaddor/av-swe-guide#1-introduction), but the introductions are important.
 
 #### Q: Can I download this guide? ####
-A: 
+A: You may clone and work with this project on your local machine. In fact, if you want to complete the tutorials, that is recommended. Get started with [this](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md#how-can-i-contribute) to create your own fork.
 
 #### Q: I have a suggestion, how can I contribute to this guide? ####
-A:
+A: Contribitions and suggestions are always welcome. First, read through this [contributing document](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md), then submit an issue and/or pull request.
 
 #### Q: I don't know much about computer science/software, how can I still use this? ####
-A:
+A: Like stated in a previous question, this guide assumes a certain level of knwoledge of computer science and software engineering concepts. Feel free to learn those, however, in the future, we are looking at developing tutorials that introduce other engineering fields (electrial, mechanical, systems, etc).
