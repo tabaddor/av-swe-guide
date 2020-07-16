@@ -92,7 +92,7 @@ For those who are computer science students at a university or a software engine
 - [ ] [C++](https://www.learncpp.com/) and/or [Python](https://www.coursera.org/specializations/python) programming is expected
 - [ ] Data Structures and Algorithms (Cracking the Coding Interview (book) **and/or** [Stanford's Algorithm Course](https://www.coursera.org/specializations/algorithms))
 - [ ] [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) **and/or** Hands On Machine Learning with Scikit-Learn & Tensor Flow (book) (Recommended, but optional)
-- [ ] Basic Git & Linux Command Knowledge (Optional)
+- [ ] [Basic Git & Linux Command Knowledge](https://www.linux.com/topic/desktop/introduction-using-git/) (Optional)
 - [ ] Basic [Software Development](https://www.ibm.com/topics/software-development) Knowledge (Optional)
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
 
@@ -205,8 +205,20 @@ Summary:
 
 [![Lex Fridman Self Driving Cars State of the Art](https://user-images.githubusercontent.com/44756122/87369420-73d9dc80-c54e-11ea-9b6e-0b6d51f0098d.jpg)](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
 
+- [ ] [The Future of Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/HdaOV/the-future-of-autonomous-vehicles)
+
 
 ## 2. Software and Hardware ##
+As a software engineer working on self driving car technology, it is important you have an understanding of not only the software, but the hardware involved. You don't need to be an expert in computer architecture or circuits, but a general understanding and appreciation of hardware is important.
+
+_Note: This section is still in progress. The links below are just some compiled resources I'll structure soon._
+- [ ] [Sensors and Computing Hardware](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
+- [ ] [Software Architecture for Self-Driving Cars](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
+
+* [Three Sensor Types of Autonomous Vehicles](https://www.fierceelectronics.com/components/three-sensor-types-drive-autonomous-vehicles)
+* [DARPA Urban Challenge Technical Paper](https://pdfs.semanticscholar.org/c10a/cd8c64790f7d040ea6f01d7b26b1d9a442db.pdf)
+
+
 
 ## 3. Developing for Safety ##
 
