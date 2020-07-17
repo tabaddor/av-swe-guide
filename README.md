@@ -178,18 +178,16 @@ Below is a typical software stack for a self-driving car. It should be pretty se
 - [ ] [Taxonomy of driving](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-taxonomy-of-driving-BdNR6)
 - [ ] [Driving Decisions and Actions](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-3-driving-decisions-and-actions-vPSnD)
 
-#### Levels of Autonomy ####
+#### Levels of Autonomy :oncoming_automobile: ####
 ![levelsofautonomy](https://user-images.githubusercontent.com/44756122/87369758-3fb2eb80-c54f-11ea-9fe0-67e8e4c5c813.png)
 
-Below is an image of the various sensors in Google's self driving car. **Sensors** are devices which mesaure some sort of physical property and records or responds to the data.
 
-<img src="https://user-images.githubusercontent.com/44756122/87368706-6c193880-c54c-11ea-82c3-6b2f1311be8f.png" style="height: 650px; width: 800px;" />
+**Section Tutorials and Projects:**
+_NOTE: This is a work and progress and will be updated. Open for discussion as well!_
 
 **Basic Terminoloy:**
 - **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
 - **Computer Vision (Perception):** A field of artificial intelligence that trains computers to interpret and understand the visual world.
-- **LiDar vs. Radar:** _LiDar_ is a method for measuring distances by illuminating the target with laser light and measure the reflection with a sensor. _Radar_ uses
-radio waves to achieve the same task. [LiDar vs Radar for Applied Autonomy](https://semcon.com/offerings/applied-autonomy/lidar-vs-radar-for-applied-autonomy/)
 - **Controls:** Manipulation of forces by way of steering, braking, etc. Needed to execute guidance commands to maintain vehicle stability.
 - **Planning:** Planning a path, mission, or behavior of the vehicle and predictions of its surrounding.
 - **Mobility as a Service (MaaS):** A shift from personally-owned modes of transportation and towards mobility provided as a servie.
@@ -208,15 +206,46 @@ Summary:
 - [ ] [The Future of Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/HdaOV/the-future-of-autonomous-vehicles)
 
 
-## 2. Software and Hardware ##
-As a software engineer working on self driving car technology, it is important you have an understanding of not only the software, but the hardware involved. You don't need to be an expert in computer architecture or circuits, but a general understanding and appreciation of hardware is important.
+## 2. Software and Hardware  ##
+As a software engineer working on self driving car technology, it is important you have an understanding of not only the software, but the hardware involved. You don't need to be an expert in computer architecture or circuits, but a general understanding and appreciation of hardware is important. With that said, let's dive into the software and hardware architecture of self-driving cars.
 
-_Note: This section is still in progress. The links below are just some compiled resources I'll structure soon._
+#### Sensors and Hardware Architecture :battery: ####
 - [ ] [Sensors and Computing Hardware](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
-- [ ] [Software Architecture for Self-Driving Cars](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
+- [ ]  [Three Sensor Types of Autonomous Vehicles](https://www.fierceelectronics.com/components/three-sensor-types-drive-autonomous-vehicles)
 
-* [Three Sensor Types of Autonomous Vehicles](https://www.fierceelectronics.com/components/three-sensor-types-drive-autonomous-vehicles)
-* [DARPA Urban Challenge Technical Paper](https://pdfs.semanticscholar.org/c10a/cd8c64790f7d040ea6f01d7b26b1d9a442db.pdf)
+**Hardware in the Loop (HiL)**
+
+**_Hardware in the Loop_** is a technique that is used in the development and testing of real-time embedded systems. Working as a software or computer engineer at a self-driving car compnay, you may work on the Hardware in the loop team.
+- [ ] [What is Hardware in the Loop? (video)](https://www.youtube.com/watch?v=BrmqyVuyegc)
+- [ ] [Hardware in the Loop](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)
+- [ ] [Hardware in the Loop simulation for autonomous vehicles](https://www.researchgate.net/publication/241157481_Hardware-in-the-loop_simulation_for_autonomous_driving)
+- [ ] [HIL Simulator for Developing Automated Driving Algorithms](https://ieeexplore.ieee.org/document/8123155)
+
+Below is an image of the various sensors in Google's self driving car. **Sensors** are devices which mesaure some sort of physical property and records or responds to the data.
+
+<img src="https://user-images.githubusercontent.com/44756122/87368706-6c193880-c54c-11ea-82c3-6b2f1311be8f.png" style="height: 650px; width: 800px;" />
+
+#### Software Architecture ####
+- [ ] [Software Architecture for Self-Driving Cars](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
+- [ ] [IEEE Accelerating Autonomous Vehicles](https://spectrum.ieee.org/transportation/self-driving/accelerating-autonomous-vehicle-technology)
+- [ ] [Stanford Autonomouos Vehicle Technical Stack Video (**great summary**)](https://www.youtube.com/watch?v=V8LA0_bb9LI)
+
+![autoware-selfdrivingunit-stack](https://user-images.githubusercontent.com/44756122/87736188-8437c480-c7a5-11ea-801a-a6085fdb654d.png)
+
+
+**Section Tutorials and Projects:**
+_NOTE: This is a work and progress and will be updated. Open for discussion as well!_
+
+**Section Terminology:**
+- **LiDar vs. Radar:** _LiDar_ is a method for measuring distances by illuminating the target with laser light and measure the reflection with a sensor. _Radar_ uses
+radio waves to achieve the same task. [LiDar vs Radar for Applied Autonomy](https://semcon.com/offerings/applied-autonomy/lidar-vs-radar-for-applied-autonomy/)
+- **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
+- **Hardware in the Loop:**
+- **Software Stack:**
+- **Computing Hardware:**
+- **CPU/GPU**:
+- **Sensor Fusion:**
+- **Mapping:**
 
 
 
