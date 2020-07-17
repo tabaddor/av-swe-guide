@@ -185,6 +185,14 @@ Below is a typical software stack for a self-driving car. It should be pretty se
 **Section Tutorials and Projects:**
 _NOTE: This is a work and progress and will be updated. Open for discussion as well!_
 
+**Summary**:
+- [ ] [Self-Driving Car](https://en.wikipedia.org/wiki/Self-driving_car)
+- [ ] [Public Health, Ethics, and Autonomous Vehicles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5343691/)
+- [ ] [The Future of Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/HdaOV/the-future-of-autonomous-vehicles)
+- [ ] State of the Art: Self-Driving Cars (**CLICK ON VIDEO BELOW**)
+
+[![Lex Fridman Self Driving Cars State of the Art](https://user-images.githubusercontent.com/44756122/87369420-73d9dc80-c54e-11ea-9b6e-0b6d51f0098d.jpg)](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
+
 **Basic Terminoloy:**
 - **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
 - **Computer Vision (Perception):** A field of artificial intelligence that trains computers to interpret and understand the visual world.
@@ -196,14 +204,6 @@ _NOTE: This is a work and progress and will be updated. Open for discussion as w
 - **Connected Vehicle:** A car that can communicate with other systems outside of the car. Most cars are connected these days in some shape or form.
 [A complete gloassary of Automated Vehicle Terms](http://www.cts.virginia.edu/wp-content/uploads/2018/03/Glossary-of-CAV-Terms-Ver1.0-03052018-1.pdf)
 
-Summary:
-- [ ] [Self-Driving Car](https://en.wikipedia.org/wiki/Self-driving_car)
-- [ ] [Public Health, Ethics, and Autonomous Vehicles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5343691/)
-- [ ] State of the Art: Self-Driving Cars (**CLICK ON VIDEO BELOW**)
-
-[![Lex Fridman Self Driving Cars State of the Art](https://user-images.githubusercontent.com/44756122/87369420-73d9dc80-c54e-11ea-9b6e-0b6d51f0098d.jpg)](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
-
-- [ ] [The Future of Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/HdaOV/the-future-of-autonomous-vehicles)
 
 
 # 2. Software and Hardware  #
