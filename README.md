@@ -13,7 +13,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 ## Guide ##
 - [ ] [Introduction](https://github.com/tabaddor/av-swe-guide#1-introduction)
 - [ ] [Software and Hardware](https://github.com/tabaddor/av-swe-guide#2-software-and-hardware)
-- [ ] [Developing for Safety](https://github.com/tabaddor/av-swe-guide#3-developing-for-safety)
+- [ ] [Developing for Safety](https://github.com/tabaddor/av-swe-guide#3-developing-for-safety-traffic_light)
 - [ ] [Deep Learning for Self-Driving Cars](https://github.com/tabaddor/av-swe-guide#4-deep-learning-for-self-driving-cars)
 - [ ] [State Estimation and Localization](https://github.com/tabaddor/av-swe-guide#5-state-estimation-and-localization)
 - [ ] [Perception](https://github.com/tabaddor/av-swe-guide#6-perception)
@@ -162,7 +162,7 @@ Software engineers working on self driving cars will:
 
 Pumped yet? :muscle:
 
-## 1. Introduction ##
+# 1. Introduction #
 This introductory section will provide high level overviews about the history of autonomous vehicles, basic autonomous vehicle taxonomy/terminology, and the current state of self-driving cars. This section is not overly technical, but interesting and important nonetheless.
 
 Below is a typical software stack for a self-driving car. It should be pretty self-explanatory, however, **don't get bogged down in the details**, it _will_ all fit together at the end (taken from Hyundai-Aptiv Webinar).
@@ -206,10 +206,10 @@ Summary:
 - [ ] [The Future of Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/HdaOV/the-future-of-autonomous-vehicles)
 
 
-## 2. Software and Hardware  ##
+# 2. Software and Hardware  #
 As a software engineer working on self driving car technology, **it is important you have an understanding of not only the software, but the hardware involved**. You don't need to be an expert in computer architecture or circuits, but a general understanding and appreciation of hardware is important. With that said, let's dive into the software and hardware architecture of self-driving cars.
 
-#### Sensors and Hardware Architecture :battery: ####
+### Sensors and Hardware Architecture :battery: ###
 - [ ] [Sensors and Computing Hardware](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
 - [ ]  [Three Sensor Types of Autonomous Vehicles](https://www.fierceelectronics.com/components/three-sensor-types-drive-autonomous-vehicles)
 
@@ -227,7 +227,7 @@ Below is an image of the various sensors in Google's self driving car. **Sensors
 
 **Sensors** work together to provide the car with visuals of its surroundings to ultimately help detect pedestrians, other cars, etc and feeds the data into learning algorithms that aid with motion planning and path prediction. You'll work with the actual computer vision algorithms that deal with the sensor data and images in the [Perception](https://github.com/tabaddor/av-swe-guide#6-perception) section, but for now, just understand how this piece of hardware ties into the self-driving vehicle as a whole. **_Read [HERE](https://blogs.nvidia.com/blog/2019/04/15/how-does-a-self-driving-car-see/) for more information about how a self-driving car uses sensors to see._**
 
-#### Software Architecture ####
+### Software Architecture ###
 - [ ] [Software Architecture for Self-Driving Cars](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
 - [ ] [IEEE Accelerating Autonomous Vehicles](https://spectrum.ieee.org/transportation/self-driving/accelerating-autonomous-vehicle-technology)
 - [ ] [Stanford Autonomouos Vehicle Technical Stack Video (**great summary**)](https://www.youtube.com/watch?v=V8LA0_bb9LI)
@@ -251,10 +251,10 @@ radio waves to achieve the same task. [LiDar vs Radar for Applied Autonomy](http
 
 
 
-## 3. Developing for Safety :traffic_light: ##
+# 3. Developing for Safety :traffic_light: #
 Like stressed earlier in the motivation section, **_SAFETY IS CRITICAL_**. As a software engineer or developer working on autonomous, safety critical systems, it's especially important your code applies to safety standards, is tested rigorously (manually and automatically), and more which will be covered in this section. 
 
-#### Safety Assurance for Self-Driving Cars ###
+### Safety Assurance for Self-Driving Cars ###
 - [ ] [Safety Assurance for Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/gtsMT/lesson-1-safety-assurance-for-self-driving-vehicles)
 - [ ] [Safety Frameworks for Driving](https://www.coursera.org/learn/intro-self-driving-cars/lecture/hCttH/lesson-3-safety-frameworks-for-self-driving)
 - [ ] [How Many Miles Would it Take to Demonstrate AV Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
@@ -263,9 +263,21 @@ Unfortunately, _sometimes_ things go wrong. That is the challenege.
 * [Uber Crash Preliminary Report](https://www.ntsb.gov/investigations/AccidentReports/Reports/HWY18MH010-prelim.pdf)
 
 
-#### Software Engineering Activites ####
+### Software Engineering Activites ###
+#### Testing ####
+
+### Code Quality/Metrics ###
+
+### Productivity/Teamwork ###
+
 
 **Dr. Phil Koopman- a gold mine of autonomous vehicle safety research and information:**
+His YouTube channel can be found in the [Resources section](https://github.com/tabaddor/av-swe-guide#resources). Here are some noteworthy vehicles I recommend:
+- [ ] [Software Maintenance Best Practices](https://www.youtube.com/watch?v=raXfwiOKySo)
+- [ ] [10 Risks of Poor Embedded Software Quality](https://www.youtube.com/watch?v=aclkJqBK2HM)
+- [ ] [Software Testing Best Practices](https://www.youtube.com/watch?v=GKrp1Ab6doc)
+- [ ] [Best Practices for Unit Testing](https://www.youtube.com/watch?v=Qkzjmgn8zto)
+- [ ] [Embedded Software Security, Safety, and Quality](https://www.youtube.com/watch?v=elK0GJUm958)
 
 
 **Section Tutorials and Projects:**
@@ -274,10 +286,12 @@ _NOTE: This is a work and progress and will be updated. Open for discussion as w
 **Section Terminology:**
 - **Safety:**
 - **Testing:**
+- **Metrics:**
 - **Code Maintainability:**
 - **Code Readability:**
 - **Code Reliability:**
 - **Test Suite/Cases:**
+- **Software Quality:**
 - **Unit Testing:**
 - **Integration Testing:**
 - **Mutation Testing:**
