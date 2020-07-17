@@ -207,7 +207,7 @@ Summary:
 
 
 ## 2. Software and Hardware  ##
-As a software engineer working on self driving car technology, it is important you have an understanding of not only the software, but the hardware involved. You don't need to be an expert in computer architecture or circuits, but a general understanding and appreciation of hardware is important. With that said, let's dive into the software and hardware architecture of self-driving cars.
+As a software engineer working on self driving car technology, **it is important you have an understanding of not only the software, but the hardware involved**. You don't need to be an expert in computer architecture or circuits, but a general understanding and appreciation of hardware is important. With that said, let's dive into the software and hardware architecture of self-driving cars.
 
 #### Sensors and Hardware Architecture :battery: ####
 - [ ] [Sensors and Computing Hardware](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
@@ -215,7 +215,7 @@ As a software engineer working on self driving car technology, it is important y
 
 **Hardware in the Loop (HiL)**
 
-**_Hardware in the Loop_** is a technique that is used in the development and testing of real-time embedded systems. Working as a software or computer engineer at a self-driving car compnay, you may work on the Hardware in the loop team.
+**_Hardware in the Loop_** is a technique that is used in the development and testing of _real-time embedded systems_. Working as a software or computer engineer at a self-driving car compnay, you may work on the Hardware in the loop team.
 - [ ] [What is Hardware in the Loop? (video)](https://www.youtube.com/watch?v=BrmqyVuyegc)
 - [ ] [Hardware in the Loop](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)
 - [ ] [Hardware in the Loop simulation for autonomous vehicles](https://www.researchgate.net/publication/241157481_Hardware-in-the-loop_simulation_for_autonomous_driving)
@@ -224,6 +224,8 @@ As a software engineer working on self driving car technology, it is important y
 Below is an image of the various sensors in Google's self driving car. **Sensors** are devices which mesaure some sort of physical property and records or responds to the data.
 
 <img src="https://user-images.githubusercontent.com/44756122/87368706-6c193880-c54c-11ea-82c3-6b2f1311be8f.png" style="height: 650px; width: 800px;" />
+
+**Sensors** work together to provide the car with visuals of its surroundings to ultimately help detect pedestrians, other cars, etc and feeds the data into learning algorithms that aid with motion planning and path prediction. You'll work with the actual computer vision algorithms that deal with the sensor data and images in the [Perception](https://github.com/tabaddor/av-swe-guide#6-perception) section, but for now, just understand how this piece of hardware ties into the self-driving vehicle as a whole. **_Read [HERE](https://blogs.nvidia.com/blog/2019/04/15/how-does-a-self-driving-car-see/) for more information about how a self-driving car uses sensors to see._**
 
 #### Software Architecture ####
 - [ ] [Software Architecture for Self-Driving Cars](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
@@ -240,16 +242,47 @@ _NOTE: This is a work and progress and will be updated. Open for discussion as w
 - **LiDar vs. Radar:** _LiDar_ is a method for measuring distances by illuminating the target with laser light and measure the reflection with a sensor. _Radar_ uses
 radio waves to achieve the same task. [LiDar vs Radar for Applied Autonomy](https://semcon.com/offerings/applied-autonomy/lidar-vs-radar-for-applied-autonomy/)
 - **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
-- **Hardware in the Loop:**
-- **Software Stack:**
+- **Hardware in the Loop:** A simulation technique used in the development and testing of real-time embedded systems.
+- **Software Stack:** A set of software subsystems and components needded to develop and complete a platform. Most self-driving car software stacks follow the same idea.
 - **Computing Hardware:**
-- **CPU/GPU**:
-- **Sensor Fusion:**
-- **Mapping:**
+- **CPU/GPU**: A central processing unit and a graphical processing unit that work together, sitting atop the compute hardware to carry out instructions and concurrent data.
+- **Sensor Fusion:** The ability to bring data from multiple inputs (cameras, LiDar, Radar, etc) to form a single model of the environment around the vehicle.
+- **Mapping:** Using sensor data to form "maps" of the environment around the vehicle. 
 
 
 
-## 3. Developing for Safety ##
+## 3. Developing for Safety :traffic_light: ##
+Like stressed earlier in the motivation section, **_SAFETY IS CRITICAL_**. As a software engineer or developer working on autonomous, safety critical systems, it's especially important your code applies to safety standards, is tested rigorously (manually and automatically), and more which will be covered in this section. 
+
+#### Safety Assurance for Self-Driving Cars ###
+- [ ] [Safety Assurance for Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/gtsMT/lesson-1-safety-assurance-for-self-driving-vehicles)
+- [ ] [Safety Frameworks for Driving](https://www.coursera.org/learn/intro-self-driving-cars/lecture/hCttH/lesson-3-safety-frameworks-for-self-driving)
+- [ ] [How Many Miles Would it Take to Demonstrate AV Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
+
+Unfortunately, _sometimes_ things go wrong. That is the challenege.
+* [Uber Crash Preliminary Report](https://www.ntsb.gov/investigations/AccidentReports/Reports/HWY18MH010-prelim.pdf)
+
+
+#### Software Engineering Activites ####
+
+**Dr. Phil Koopman- a gold mine of autonomous vehicle safety research and information:**
+
+
+**Section Tutorials and Projects:**
+_NOTE: This is a work and progress and will be updated. Open for discussion as well! This section will have some fun projects_
+
+**Section Terminology:**
+- **Safety:**
+- **Testing:**
+- **Code Maintainability:**
+- **Code Readability:**
+- **Code Reliability:**
+- **Test Suite/Cases:**
+- **Unit Testing:**
+- **Integration Testing:**
+- **Mutation Testing:**
+
+
 
 ## 4. Deep Learning for Self-Driving Cars ##
 
