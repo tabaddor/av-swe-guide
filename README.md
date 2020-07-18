@@ -264,7 +264,8 @@ Unfortunately, _sometimes_ things go wrong. That is the challenege.
 
 
 ### Software Engineering Activites ###
-#### Testing ####
+
+### Testing ###
 
 ### Code Quality/Metrics ###
 
