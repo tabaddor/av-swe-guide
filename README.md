@@ -264,8 +264,17 @@ Unfortunately, _sometimes_ things go wrong. That is the challenege.
 
 
 ### Software Engineering Activites ###
+As a software engineer, _only around 10% of your time will be spent actually writing new code_. The remaining 90% of your time will be spent reading, understanding, debugging, testing, and communicating code. That is why, especially for a safety critical system like a self-driving car, you have a solid understanding of software engineering activities. We will focus on the big three that are: Testing, Code Quality and Metrics, and Productivity. 
 
 ### Testing ###
+Testing is expensive. But it is also crucial for self-driving cars. Testing the vehicle modules as a whole may take place in simulations, but you will still need the basics of software development testing down. 
+
+- [ ] [Software Engineering at Goolge](https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf)
+- [ ] [Code Coverage](https://en.wikipedia.org/wiki/Code_coverage)
+- [ ] [Software Development Lifecyle in 9 minites](https://www.youtube.com/watch?v=i-QyW8D3ei0)
+- [ ] [Autonomous Vehicle Virtual Testing and Validation](https://www.youtube.com/watch?v=hP9rYv6p9aA)
+
+You'll hear the terms [**_validation_** and **_verification_**](https://en.wikipedia.org/wiki/Verification_and_validation), and be aware that though the sound similar, they are widely different terms. **Validation** involves making sure your system meets requirements. **Verification** invovles making sure your software system is correct. Validation and verification can go hand in hand. 
 
 ### Code Quality/Metrics ###
 
@@ -285,17 +294,19 @@ His YouTube channel can be found in the [Resources section](https://github.com/t
 _NOTE: This is a work and progress and will be updated. Open for discussion as well! This section will have some fun projects_
 
 **Section Terminology:**
-- **Safety:**
-- **Testing:**
-- **Metrics:**
-- **Code Maintainability:**
-- **Code Readability:**
-- **Code Reliability:**
-- **Test Suite/Cases:**
-- **Software Quality:**
-- **Unit Testing:**
-- **Integration Testing:**
-- **Mutation Testing:**
+- **Safety:** Condition of being protected, unlikely to cause or be at risk of danger, injury, or death. 
+- **Testing:** Activity involved placing your code under rigurous edge cases that allows you to assess the code quality.
+- **Metrics:** Measurement that allows you to place objective judgement on pieces of code.
+- **Code Maintainability:** Ensuring that code is readable by other developers, low in defects, and low coupling (how related code is).
+- **Code Readability:** How easy code is to follow logically by developers other than the original author. 
+- **Code Reliability:** Reliable code is secure and handles exceptions for a segment of code accordingly. 
+- **Test Suite/Cases:** _A test suite_ is a collection of test cases intended to test a segment or feature of code. _A test case_ is comprised specific units of execution to test the
+correctness of a piece of code. 
+- **Software Quality:** How well the code conforms to a design and the requirements/specifications. What is defined as "quality code" tends to differ from company to company as most
+use different metrics to measure code quality. 
+- **Unit Testing:** Testing individual units of the source code at a time. 
+- **Integration Testing:** Testing where individual software modules are combined for testing together. 
+- **Mutation Testing:** Involves modifying a test case and seeing if that "mutant" passes or fails when run against the source code. 
 
 
 
