@@ -228,6 +228,7 @@ Below is an image of the various sensors in Google's self driving car. **Sensors
 **Sensors** work together to provide the car with visuals of its surroundings to ultimately help detect pedestrians, other cars, etc and feeds the data into learning algorithms that aid with motion planning and path prediction. You'll work with the actual computer vision algorithms that deal with the sensor data and images in the [Perception](https://github.com/tabaddor/av-swe-guide#6-perception) section, but for now, just understand how this piece of hardware ties into the self-driving vehicle as a whole. **_Read [HERE](https://blogs.nvidia.com/blog/2019/04/15/how-does-a-self-driving-car-see/) for more information about how a self-driving car uses sensors to see._**
 
 ### Software Architecture ###
+_The high level idea_ behind self-driving car software architecture and stacks is separating the main vehicle functionalities into modules (perception, planning, and controls), and allowing them to work together/communciate. 
 - [ ] [Software Architecture for Self-Driving Cars](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
 - [ ] [IEEE Accelerating Autonomous Vehicles](https://spectrum.ieee.org/transportation/self-driving/accelerating-autonomous-vehicle-technology)
 - [ ] [Stanford Autonomouos Vehicle Technical Stack Video (**great summary**)](https://www.youtube.com/watch?v=V8LA0_bb9LI)
@@ -263,7 +264,7 @@ Unfortunately, _sometimes_ things go wrong. That is the challenege.
 * [Uber Crash Preliminary Report](https://www.ntsb.gov/investigations/AccidentReports/Reports/HWY18MH010-prelim.pdf)
 
 
-### Software Engineering Activites ###
+### Software Engineering Activites:computer: ###
 As a software engineer, _only around 10% of your time will be spent actually writing new code_. The remaining 90% of your time will be spent reading, understanding, debugging, testing, and communicating code. That is why, especially for a safety critical system like a self-driving car, you have a solid understanding of software engineering activities. We will focus on the big three that are: Testing, Code Quality and Metrics, and Productivity. 
 
 ### Testing ###
@@ -276,12 +277,26 @@ Testing is expensive. But it is also crucial for self-driving cars. Testing the 
 
 You'll hear the terms [**_validation_** and **_verification_**](https://en.wikipedia.org/wiki/Verification_and_validation), and be aware that though the sound similar, they are widely different terms. **Validation** involves making sure your system meets requirements. **Verification** invovles making sure your software system is correct. Validation and verification can go hand in hand. 
 
+**Static Analysis**- Debugging that is done by examining the code without executing the program
+- [ ] [Static Program Analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
+- [ ] [A Decade of Software Model Checking with SLAM](https://dijkstra.eecs.umich.edu/kleach/eecs481/readings/slam.pdf)
+
+**Dynamic Analysis**- Testing and evaluation by executing the data in real-time
+- [ ] [Dynamic Program Analysis](https://en.wikipedia.org/wiki/Dynamic_program_analysis)
+
+
 ### Code Quality/Metrics ###
+Lorem Ipsum Dolor
+- [ ] [Quality Assurance](https://en.wikipedia.org/wiki/Quality_assurance)
+- [ ] [State of Mutation Testing at Google](https://dijkstra.eecs.umich.edu/kleach/eecs481/readings/mutation-google.pdf)
+- [ ] [145 Questions for Data Scientist in Software Engineering](https://dijkstra.eecs.umich.edu/kleach/eecs481/readings/datase.pdf)
 
 ### Productivity/Teamwork ###
+For the most part, you won't be working on a system alone. You'll be on a team, and a lot of times, coding with another developer in what is called _pair programming._ Pair programming involves two developers working on a feature, issue, etc, however, they work on their own parts, and then convene later on to discuss and communicate. 
+- [ ] [Cost and Benefits of Pair Programming](https://dijkstra.eecs.umich.edu/kleach/eecs481/readings/pairprogramming.pdf)
 
 
-**Dr. Phil Koopman- a gold mine of autonomous vehicle safety research and information:**
+### Dr. Phil Koopman- a gold mine of autonomous vehicle safety research and information: ###
 His YouTube channel can be found in the [Resources section](https://github.com/tabaddor/av-swe-guide#resources). Here are some noteworthy vehicles I recommend:
 - [ ] [Software Maintenance Best Practices](https://www.youtube.com/watch?v=raXfwiOKySo)
 - [ ] [10 Risks of Poor Embedded Software Quality](https://www.youtube.com/watch?v=aclkJqBK2HM)
@@ -325,7 +340,6 @@ use different metrics to measure code quality.
 - [Carla- Open Source Simulator for AVs](https://carla.org/)
 - [ROS- Robot Operating System](https://www.ros.org/)
 - [*Embedded Software Development for Safety Critical Systems* by Chris Hobbs](https://www.amazon.com/Embedded-Software-Development-Safety-Critical-Systems/dp/1498726704). (this is not an affiliate link)
-- [Software Model Checking with SLAM (report)](https://www.cis.upenn.edu/~alur/CIS673/Spring20/slam11.pdf)
 - [Phil Koopman](https://www.youtube.com/channel/UC7QA0wx1m_aLyctDusU4X7g)
 - [Deep Learning with Lex Fridman](https://www.youtube.com/watch?v=0VH1Lim8gL8&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf&index=1)
 - [openpilot: Open Source Driver Assistance Software](https://comma.ai/)
@@ -333,7 +347,14 @@ use different metrics to measure code quality.
 
 # AV Companies :briefcase:
 A list of companies working on autonomous vehicle technologies. The purpose of this section is to include any relevant information about the companies and any open internship and full-time positions. Don't see your company or a position? Submit an issue or pull request!
-### Waymo
+### Waymo ###
+[Waymo](https://waymo.com/) is an autonomous driving technology company that is a subsiduary of Alphabet, Inc. 
+
+[**Open Roles**](https://waymo.com/joinus/)
+
+**Research**
+- [Scalability in Perception for Autonomous Driving](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf)
+
 ### Cruise (GM)
 ### Ford
 ### Zoox
