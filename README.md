@@ -148,7 +148,7 @@ One way to look at the challenge of developing self-driving cars is that it seem
 
 #### Example of a Safety Critical System for Self-Driving Cars ####
 * [Advanced Driver Assistance Systems (ADAS)](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)
-<img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" height="650px" width="800px" 
+<img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" height="650px" width="800px">
 
 Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch?v=GInSPWZRFRM) and [pedestrian crash prevention](https://www.iihs.org/news/detail/performance-of-pedestrian-crash-prevention-varies-among-midsize-cars). 
 
@@ -286,7 +286,7 @@ You'll hear the terms [**_validation_** and **_verification_**](https://en.wikip
 
 
 ### Code Quality/Metrics ###
-Lorem Ipsum Dolor
+What is defined as quality code and how quality code is measured will differ from organization to organization, and maybe even from team to team. Is your goal bug-free code? Is your goal minimal debugging time? Is your goal less lines of code? These are all things managers and teams consider, and important for you as a developer to keep in mind when working on safety critical systems like self-driving cars.
 - [ ] [Quality Assurance](https://en.wikipedia.org/wiki/Quality_assurance)
 - [ ] [State of Mutation Testing at Google](https://dijkstra.eecs.umich.edu/kleach/eecs481/readings/mutation-google.pdf)
 - [ ] [145 Questions for Data Scientist in Software Engineering](https://dijkstra.eecs.umich.edu/kleach/eecs481/readings/datase.pdf)
@@ -303,6 +303,8 @@ His YouTube channel can be found in the [Resources section](https://github.com/t
 - [ ] [Software Testing Best Practices](https://www.youtube.com/watch?v=GKrp1Ab6doc)
 - [ ] [Best Practices for Unit Testing](https://www.youtube.com/watch?v=Qkzjmgn8zto)
 - [ ] [Embedded Software Security, Safety, and Quality](https://www.youtube.com/watch?v=elK0GJUm958)
+
+**VIDEO/INTERVIEW**: [Speaking of Psychology: Self-Driving Cars](https://www.apa.org/research/action/speaking-of-psychology/self-driving-cars)
 
 
 **Section Tutorials and Projects:**
@@ -355,7 +357,13 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 **Research**
 - [Scalability in Perception for Autonomous Driving](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf)
 
-### Cruise (GM)
+### Cruise
+[Cruise](https://www.getcruise.com/) is a self-driving car company owned by General Motors (GM).
+
+[**Open Roles**](https://www.getcruise.com/careers/software)
+
+**Research**
+
 ### Ford
 ### Zoox
 ### Tesla
