@@ -67,7 +67,7 @@ The [contributing document](https://github.com/tabaddor/av-swe-guide/blob/master
 cd av-swe-guide/tutorials/<tutorial-name>
 ```
 
-#### Other Resources ####
+#### Resources ####
 Other resources outside of the structured roadmap this project compiles include YouTube channels, open source github projects (like Carla simulator). To be specific:
 1. [Resources](https://github.com/tabaddor/av-swe-guide#resources) (Links to YouTube channels, research papers, documentation, GitHub projects, and more that are touched upon in the guide)
 2. [Full-Time and Internship Opportunties](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase) :briefcase:
@@ -182,16 +182,11 @@ Below is a typical software stack for a self-driving car. It should be pretty se
 ![levelsofautonomy](https://user-images.githubusercontent.com/44756122/87369758-3fb2eb80-c54f-11ea-9fe0-67e8e4c5c813.png)
 
 
-**Section Tutorials and Projects:**
-_NOTE: This is a work and progress and will be updated. Open for discussion as well!_
-
 **Summary**:
 - [ ] [Self-Driving Car](https://en.wikipedia.org/wiki/Self-driving_car)
 - [ ] [Public Health, Ethics, and Autonomous Vehicles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5343691/)
 - [ ] [The Future of Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/HdaOV/the-future-of-autonomous-vehicles)
-- [ ] State of the Art: Self-Driving Cars (**CLICK ON VIDEO BELOW**)
-
-[![Lex Fridman Self Driving Cars State of the Art](https://user-images.githubusercontent.com/44756122/87369420-73d9dc80-c54e-11ea-9b6e-0b6d51f0098d.jpg)](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
+- [ ] [State of the Art: Self-Driving Cars w/ MIT's Lex Fridman](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
 
 **Basic Terminoloy:**
 - **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
@@ -202,6 +197,7 @@ _NOTE: This is a work and progress and will be updated. Open for discussion as w
 - **OTA Software Update:** Distributing new software over an encrypted network. Tesla does this with their vehicle fleets.
 - **ADAS:** Advanced Driver Assistance Systems. Electronic systems that help the vehicle driver while driving or during parking.
 - **Connected Vehicle:** A car that can communicate with other systems outside of the car. Most cars are connected these days in some shape or form.
+- **Datasets:** Collection of data to use in the development and testing of autonomous sytems (example: traffic data, weather data, pedestrian data, etc)
 [A complete gloassary of Automated Vehicle Terms](http://www.cts.virginia.edu/wp-content/uploads/2018/03/Glossary-of-CAV-Terms-Ver1.0-03052018-1.pdf)
 
 
@@ -237,7 +233,7 @@ _The high level idea_ behind self-driving car software architecture and stacks i
 
 
 **Section Tutorials and Projects:**
-_NOTE: This is a work and progress and will be updated. Open for discussion as well!_
+- [ ] [ROS (Robot Operating System) Tutorials](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials/ros)
 
 **Section Terminology:**
 - **LiDar vs. Radar:** _LiDar_ is a method for measuring distances by illuminating the target with laser light and measure the reflection with a sensor. _Radar_ uses
@@ -265,7 +261,7 @@ Unfortunately, _sometimes_ things go wrong. That is the challenege.
 
 
 ### Software Engineering Activites:computer: ###
-As a software engineer, _only around 10% of your time will be spent actually writing new code_. The remaining 90% of your time will be spent reading, understanding, debugging, testing, and communicating code. That is why, especially for a safety critical system like a self-driving car, you have a solid understanding of software engineering activities. We will focus on the big three that are: Testing, Code Quality and Metrics, and Productivity. 
+As a software engineer, _only around 10% to 30% of your time will be spent actually writing new code_. The remaining time will be spent reading, understanding, debugging, testing, and communicating code. That is why, especially for a safety critical system like a self-driving car, you have a solid understanding of software engineering activities. We will focus on the big three that are: Testing, Code Quality and Metrics, and Productivity. 
 
 ### Testing ###
 Testing is expensive. But it is also crucial for self-driving cars. Testing the vehicle modules as a whole may take place in simulations, but you will still need the basics of software development testing down. 
@@ -308,7 +304,7 @@ His YouTube channel can be found in the [Resources section](https://github.com/t
 
 
 **Section Tutorials and Projects:**
-_NOTE: This is a work and progress and will be updated. Open for discussion as well! This section will have some fun projects_
+- [ ] [Testing Tutorial](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials/testing)(_Note: This is the same tutorial listed in the [Testing](https://github.com/tabaddor/av-swe-guide#8-testing) section_)
 
 **Section Terminology:**
 - **Safety:** Condition of being protected, unlikely to cause or be at risk of danger, injury, or death. 
