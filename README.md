@@ -340,6 +340,7 @@ use different metrics to measure code quality.
 - [*Embedded Software Development for Safety Critical Systems* by Chris Hobbs](https://www.amazon.com/Embedded-Software-Development-Safety-Critical-Systems/dp/1498726704). (this is not an affiliate link)
 - [Phil Koopman](https://www.youtube.com/channel/UC7QA0wx1m_aLyctDusU4X7g)
 - [Deep Learning with Lex Fridman](https://www.youtube.com/watch?v=0VH1Lim8gL8&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf&index=1)
+- [Beyond the Code - Machines, Algorithms, and Life](https://gobeyondthecode.com)
 - [openpilot: Open Source Driver Assistance Software](https://comma.ai/)
 
 
