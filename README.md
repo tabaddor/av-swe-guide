@@ -20,7 +20,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 - [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
 - [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
 ## Resources/FAQ ##
-- [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources)
+- [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources-1)
 - [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
 - [ ] [What can you do now?](https://github.com/tabaddor/av-swe-guide#what-can-you-do-now)
 - [ ] [**FAQ**](https://github.com/tabaddor/av-swe-guide#faq)
@@ -188,7 +188,7 @@ Below is a typical software stack for a self-driving car. It should be pretty se
 - [ ] [The Future of Autonomous Vehicles](https://www.coursera.org/learn/intro-self-driving-cars/lecture/HdaOV/the-future-of-autonomous-vehicles)
 - [ ] [State of the Art: Self-Driving Cars w/ MIT's Lex Fridman](https://www.youtube.com/watch?v=sRxaMDDMWQQ&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
 
-**Basic Terminoloy:**
+### Section Terminoloy: ###
 - **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
 - **Computer Vision (Perception):** A field of artificial intelligence that trains computers to interpret and understand the visual world.
 - **Controls:** Manipulation of forces by way of steering, braking, etc. Needed to execute guidance commands to maintain vehicle stability.
@@ -232,7 +232,7 @@ _The high level idea_ behind self-driving car software architecture and stacks i
 ![autoware-selfdrivingunit-stack](https://user-images.githubusercontent.com/44756122/87736188-8437c480-c7a5-11ea-801a-a6085fdb654d.png)
 
 
-**Section Tutorials and Projects:**
+### Section Tutorials and Projects: ###
 - [ ] [ROS (Robot Operating System) Tutorials](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials/ros)
 
 **Section Terminology:**
@@ -303,10 +303,10 @@ His YouTube channel can be found in the [Resources section](https://github.com/t
 **VIDEO/INTERVIEW**: [Speaking of Psychology: Self-Driving Cars](https://www.apa.org/research/action/speaking-of-psychology/self-driving-cars)
 
 
-**Section Tutorials and Projects:**
+### Section Tutorials and Projects: ###
 - [ ] [Testing Tutorial](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials/testing)(_Note: This is the same tutorial listed in the [Testing](https://github.com/tabaddor/av-swe-guide#8-testing) section_)
 
-**Section Terminology:**
+### Section Terminology: ###
 - **Safety:** Condition of being protected, unlikely to cause or be at risk of danger, injury, or death. 
 - **Testing:** Activity involved placing your code under rigurous edge cases that allows you to assess the code quality.
 - **Metrics:** Measurement that allows you to place objective judgement on pieces of code.
@@ -324,6 +324,19 @@ use different metrics to measure code quality.
 
 
 ## 4. Deep Learning for Self-Driving Cars ##
+Deep Learning is seen as a "fad" or a "trend" that will pass when it comes to self-driving cars. Deep learning is a specific subset of machine learning we will touch on here a bit. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
+
+### Machine Learning Overview ###
+
+### Neural Networks ###
+
+#### How Deep Neural Networks Work ####
+
+### Convolutional Neural Networks ###
+
+### Section Tutorials/Projects ###
+
+### Section Terminology ###
 
 ## 5. State Estimation and Localization ##
 
