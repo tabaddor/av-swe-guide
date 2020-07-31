@@ -386,7 +386,18 @@ Deep Learning is seen as a "fad" or a "trend" that will pass when it comes to se
 
 ## 8. Testing ##
 
-To be updated soon with content structure.
+### Importance of Testing ###
+
+### Unit Testing ###
+
+### Integration Testing ###
+
+### Static and Dynamic Analysis ###
+
+### Simulation ###
+
+## The Most Important Thing ##
+Languages will come and go. Frameworks will come and ago. Tools and technologies will come and go. Understanding the idea, theory, and/or mathematics behind the concepts, rather memorizing snippets of code, is the most important thing. 
 
 
 # Resources
