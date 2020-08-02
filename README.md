@@ -324,7 +324,7 @@ use different metrics to measure code quality.
 
 
 ## 4. Deep Learning for Self-Driving Cars ##
-Deep Learning is seen as a "fad" or a "trend" that will pass when it comes to self-driving cars. Deep learning is a specific subset of machine learning we will touch on here a bit. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
+Deep Learning is seen as a "fad" or a "trend" when it comes to self-driving cars, but it is still important to know about. Deep learning is a specific subset of machine learning dealing with neural networks. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
 
 ### Machine Learning Overview ###
 
@@ -397,7 +397,7 @@ Deep Learning is seen as a "fad" or a "trend" that will pass when it comes to se
 ### Simulation ###
 
 ## The Most Important Thing ##
-Languages will come and go. Frameworks will come and ago. Tools and technologies will come and go. Understanding the idea, theory, and/or mathematics behind the concepts, rather memorizing snippets of code, is the most important thing. 
+Languages will come and go. Frameworks will come and and go. Tools and technologies will come and go. Understanding the idea, theory, and/or mathematics behind the concepts, rather than memorizing snippets of code, is the most important thing. 
 
 
 # Resources
@@ -425,18 +425,35 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 
 [**Open Roles**](https://www.getcruise.com/careers/software)
 
-**Research**
-
 ### Ford
+[Ford] Motor Company is an American automaker now building hybrid and electric vehicles, AVs, SUVs, and Crossovers.
+
+[**Open Roles**](http://corporate.ford.com/careers.html?gnav=footer-aboutford)
+
 ### Zoox
+[Zoox](https://zoox.com/) is an American Autonomous Vehicle company now a subsiduary of Amazon.
+
+[**Open Roles**](https://zoox.com/join/)
+
 ### Tesla
-### Baidu
+[Tesla](https://www.tesla.com/) is an electric car and solar/clean energy company.
+
+[**Open Roles**](https://www.tesla.com/careers)
+
 ### Aptiv
-### Bosch
+[Aptiv](https://www.aptiv.com/) is an autoparts company shaping the future of mobility through green, connected ADAS and AV technology.
+
+[**Open Roles**](https://www.aptiv.com/careers/students-and-graduates)
+
 ### Rivian
+[Rivian](https://rivian.com/) is an electric vehicle manufacturer also working on AV technology.
+
+[**Open Roles**](https://rivian.com/careers)
+
 ### HARMAN International
-### May Mobility
-### nuro
+[HARMAN International](https://www.harman.com/) is a Samsung subsiduary focusing on car lifesyle, audio, and connected products, including ADAS.
+
+[**Open Roles**](https://jobs.harman.com/)
 
 # What can you do now?
 Some inspirational, yet concrete advice coming your way. Lorem Ipsum Dolor.
