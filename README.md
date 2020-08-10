@@ -327,8 +327,19 @@ use different metrics to measure code quality.
 Deep Learning is seen as a "fad" or a "trend" when it comes to self-driving cars, but it is still important to know about. Deep learning is a specific subset of machine learning dealing with neural networks. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
 
 ### Machine Learning Overview ###
+- [ ] [What is Machine Learning?](https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning)
+- [ ] [Supervised Learning](https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervised-learning)
+- [ ] [Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
+- [ ] [Classification](https://www.coursera.org/learn/machine-learning/lecture/wlPeP/classification)
+
+- [ ] [Stanford CS229 Machine Learning](http://cs229.stanford.edu/)
+- [ ] [University of Michigan EECS 445 Machine Learning](https://eecs445-f16.github.io/)
 
 ### Neural Networks ###
+- [ ] [What is a Neural Network?] (https://www.coursera.org/learn/neural-networks-deep-learning/lecture/eAE2G/what-is-a-neural-network)
+- [ ] [Non-Linear Hypothesis](https://www.coursera.org/learn/machine-learning/lecture/OAOhO/non-linear-hypotheses)
+- [ ] [Neurons and the Brain](https://www.coursera.org/learn/machine-learning/lecture/IPmzw/neurons-and-the-brain)
+- [ ] [Neural Network Model Representation](https://www.coursera.org/learn/machine-learning/lecture/ka3jK/model-representation-i)
 
 #### How Deep Neural Networks Work ####
 
