@@ -324,26 +324,29 @@ use different metrics to measure code quality.
 
 
 ## 4. Deep Learning for Self-Driving Cars ##
-Deep Learning is seen as a "fad" or a "trend" when it comes to self-driving cars, but it is still important to know about. Deep learning is a specific subset of machine learning dealing with neural networks. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
+The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
 
 ### Machine Learning Overview ###
 - [ ] [What is Machine Learning?](https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning)
 - [ ] [Supervised Learning](https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervised-learning)
 - [ ] [Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
 - [ ] [Classification](https://www.coursera.org/learn/machine-learning/lecture/wlPeP/classification)
-
 - [ ] [Stanford CS229 Machine Learning](http://cs229.stanford.edu/)
 - [ ] [University of Michigan EECS 445 Machine Learning](https://eecs445-f16.github.io/)
 
 ### Neural Networks ###
-- [ ] [What is a Neural Network?] (https://www.coursera.org/learn/neural-networks-deep-learning/lecture/eAE2G/what-is-a-neural-network)
+- [ ] [What is a Neural Network?](https://www.coursera.org/learn/neural-networks-deep-learning/lecture/eAE2G/what-is-a-neural-network)
 - [ ] [Non-Linear Hypothesis](https://www.coursera.org/learn/machine-learning/lecture/OAOhO/non-linear-hypotheses)
 - [ ] [Neurons and the Brain](https://www.coursera.org/learn/machine-learning/lecture/IPmzw/neurons-and-the-brain)
 - [ ] [Neural Network Model Representation](https://www.coursera.org/learn/machine-learning/lecture/ka3jK/model-representation-i)
 
-#### How Deep Neural Networks Work ####
-
 ### Convolutional Neural Networks ###
+- [ ] [An Intuitive Explanation of Convulutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
+- [ ] [One Layer of a Convulutional Neural Network](https://www.coursera.org/lecture/convolutional-neural-networks/one-layer-of-a-convolutional-network-nsiuW)
+- [ ] [Simple CNN Example](https://www.coursera.org/lecture/convolutional-neural-networks/simple-convolutional-network-example-A9lXL)
+- [ ] [Why Convolutions?](https://www.coursera.org/lecture/convolutional-neural-networks/why-convolutions-Xv7B5)
+
+### [MIT's Deep Learning for Self Driving Cars](https://deeplearning.mit.edu/)
 
 ### Section Tutorials/Projects ###
 
