@@ -341,16 +341,26 @@ The high level idea behind Deep Learning is building machine learning algorithms
 - [ ] [Neural Network Model Representation](https://www.coursera.org/learn/machine-learning/lecture/ka3jK/model-representation-i)
 
 ### Convolutional Neural Networks ###
-- [ ] [An Intuitive Explanation of Convulutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
-- [ ] [One Layer of a Convulutional Neural Network](https://www.coursera.org/lecture/convolutional-neural-networks/one-layer-of-a-convolutional-network-nsiuW)
+- [ ] [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
+- [ ] [One Layer of a Conv0lutional Neural Network](https://www.coursera.org/lecture/convolutional-neural-networks/one-layer-of-a-convolutional-network-nsiuW)
 - [ ] [Simple CNN Example](https://www.coursera.org/lecture/convolutional-neural-networks/simple-convolutional-network-example-A9lXL)
 - [ ] [Why Convolutions?](https://www.coursera.org/lecture/convolutional-neural-networks/why-convolutions-Xv7B5)
 
 ### [MIT's Deep Learning for Self Driving Cars](https://deeplearning.mit.edu/)
 
 ### Section Tutorials/Projects ###
+Will be updated.
 
 ### Section Terminology ###
+- **Machine Learning:**
+- **Supervised Learning:**
+- **Unsupervised Learning:**
+- **Classification Problems:**
+- **Regression Problems:**
+- **Gradient Descent:**
+- **Deep Learning:**
+- **Neural Network:**
+- **Convolutional Neural Network:**
 
 ## 5. State Estimation and Localization ##
 
