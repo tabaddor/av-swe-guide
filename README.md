@@ -323,7 +323,7 @@ use different metrics to measure code quality.
 
 
 
-## 4. Deep Learning for Self-Driving Cars ##
+# 4. Deep Learning for Self-Driving Cars #
 The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
 
 ![AI-ML-DL](https://user-images.githubusercontent.com/44756122/90686626-9f30a500-e239-11ea-893a-07555816fa57.png)
@@ -367,7 +367,7 @@ Will be updated.
 - **Convolutional Neural Network:** A class of neural networks applied to visual imagery such as object detection.
 - **Stochastic Gradient Descent:** A deterministic approximation o gradient descent. Much more effieicnt algortihm that iteratively computes gradient descent as traditionally defined. 
 
-## 5. State Estimation and Localization ##
+# 5. State Estimation and Localization #
 
 ### Least Squares ###
 
@@ -381,7 +381,7 @@ Will be updated.
 
 ### Section Terminology ###
 
-## 6. Perception ##
+# 6. Perception #
 
 ### Computer Vision ###
 
@@ -397,7 +397,7 @@ Will be updated.
 
 ### Section Terminology ###
 
-## 7. Motion Planning ##
+# 7. Motion Planning #
 
 ### The Problem ###
 
@@ -413,7 +413,7 @@ Will be updated.
 
 ### Section Terminology ###
 
-## 8. Testing ##
+# 8. Testing #
 
 ### Importance of Testing ###
 
@@ -425,7 +425,7 @@ Will be updated.
 
 ### Simulation ###
 
-## The Most Important Thing ##
+# The Most Important Thing #
 Languages will come and go. Frameworks will come and and go. Tools and technologies will come and go. Understanding the idea, theory, and/or mathematics behind the concepts, rather than memorizing snippets of code, is the most important thing. 
 
 
