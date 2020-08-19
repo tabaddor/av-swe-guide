@@ -1,13 +1,11 @@
 # Tutorials for Autonomous Vehicle Software Development
-Lorem Ipsum Dolor
-
-## Purpose ##
-
-## How to Get Started ##
+These tutorials will provide you with hands-on experience working with the tools, technologies, and concepts involved in software engineering for self-driving cars. Suggestions are always welcome.
 
 ## ROS ##
 
 ## OpenCV ##
+
+## Deep Learning ##
 
 ## Simulation ##
 
