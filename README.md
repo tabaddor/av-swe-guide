@@ -7,7 +7,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 # Table of Contents
 ## Introduction ##
 - [ ] [How to Contribute/Guidelines](https://github.com/tabaddor/av-swe-guide#how-to-contribute)
-- [ ] [**Getting Started**](https://github.com/tabaddor/av-swe-guide#getting-started-w-the-guide-tada)
+- [ ] [Getting Started](https://github.com/tabaddor/av-swe-guide#getting-started-w-the-guide-tada)
 - [ ] [Prerequisite Resources](https://github.com/tabaddor/av-swe-guide#pre-requisites-and-resources)
 - [ ] [Autonomous Vehicles Motivation](https://github.com/tabaddor/av-swe-guide#why-autonomous-vehicles)
 ## Guide ##
@@ -326,6 +326,8 @@ use different metrics to measure code quality.
 ## 4. Deep Learning for Self-Driving Cars ##
 The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
 
+![AI-ML-DL](https://user-images.githubusercontent.com/44756122/90686626-9f30a500-e239-11ea-893a-07555816fa57.png)
+
 ### Machine Learning Overview ###
 - [ ] [What is Machine Learning?](https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning)
 - [ ] [Supervised Learning](https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervised-learning)
@@ -340,11 +342,13 @@ The high level idea behind Deep Learning is building machine learning algorithms
 - [ ] [Neurons and the Brain](https://www.coursera.org/learn/machine-learning/lecture/IPmzw/neurons-and-the-brain)
 - [ ] [Neural Network Model Representation](https://www.coursera.org/learn/machine-learning/lecture/ka3jK/model-representation-i)
 
+A specifc class of Neural Networks you should familiarize yourself with are Convolutional Neural Networks, which are involved in tasks including object detection, image processing, classification, and image segmentation.
 ### Convolutional Neural Networks ###
 - [ ] [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
-- [ ] [One Layer of a Conv0lutional Neural Network](https://www.coursera.org/lecture/convolutional-neural-networks/one-layer-of-a-convolutional-network-nsiuW)
+- [ ] [One Layer of a Convolutional Neural Network](https://www.coursera.org/lecture/convolutional-neural-networks/one-layer-of-a-convolutional-network-nsiuW)
 - [ ] [Simple CNN Example](https://www.coursera.org/lecture/convolutional-neural-networks/simple-convolutional-network-example-A9lXL)
 - [ ] [Why Convolutions?](https://www.coursera.org/lecture/convolutional-neural-networks/why-convolutions-Xv7B5)
+- [ ] [Feedforward Neural Networks]()
 
 ### [MIT's Deep Learning for Self Driving Cars](https://deeplearning.mit.edu/)
 
@@ -352,15 +356,16 @@ The high level idea behind Deep Learning is building machine learning algorithms
 Will be updated.
 
 ### Section Terminology ###
-- **Machine Learning:**
-- **Supervised Learning:**
-- **Unsupervised Learning:**
-- **Classification Problems:**
-- **Regression Problems:**
-- **Gradient Descent:**
-- **Deep Learning:**
-- **Neural Network:**
-- **Convolutional Neural Network:**
+- **Machine Learning:** A subset of artificial intelligence that provides a computer, or system, the ability to improve its performance on a task by learning from experience.
+- **Supervised Learning:** A type of machine learning task that is provided labeled training data.
+- **Unsupervised Learning:** A type of machine learning task that is provided unlabeled training data.
+- **Classification Problems:** A machine learning task that invovles discrete valued output ("boy" or "girl"; "dog" or "cat").
+- **Regression Problems:** A machine learning task that involves continuous/numerical valued output ("find the expected housing price given this data")
+- **Gradient Descent:** An optimization algorithm for finding the local minimum of a differentiable function. When we say machine learning algorithms involve slow altering a function (hypothesis) to converge to the optimal output, we are referring to this idea of gradient descent.
+- **Deep Learning:** A subset of machine learning that bases its methods off of artificial neural networks with representation learning. 
+- **Neural Network:** Algorithms based off the biological neural networks, designed to mimic the way the human brain operators. Neural networks are meant to adapt to input and generate the best possible result without needing to redesign the machine learning model/algorithm. 
+- **Convolutional Neural Network:** A class of neural networks applied to visual imagery such as object detection.
+- **Stochastic Gradient Descent:** A deterministic approximation o gradient descent. Much more effieicnt algortihm that iteratively computes gradient descent as traditionally defined. 
 
 ## 5. State Estimation and Localization ##
 
