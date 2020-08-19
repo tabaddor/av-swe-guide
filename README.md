@@ -23,7 +23,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 - [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources-1)
 - [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
 - [ ] [What can you do now?](https://github.com/tabaddor/av-swe-guide#what-can-you-do-now)
-- [ ] [**FAQ**](https://github.com/tabaddor/av-swe-guide#faq)
+- [ ] [**FAQ**](https://github.com/tabaddor/av-swe-guide#faq-speech_balloon)
 
 # How to Contribute
 :white_check_mark: This is an open source guide, so contributions are very much welcome. To contribute:
