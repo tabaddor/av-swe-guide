@@ -1,6 +1,6 @@
 # ROS Tutorial
 
-What is Robot Operating System (ROS)?
+What is [Robot Operating System (ROS)](https://www.ros.org/)? ROS is not actually an operating system, but rather a robotics middleware with most of the functionality of an operating system. It allows for hardware abstraction and low level device control, so you as a software engineer don't need to worry about message passing between different processes of your autonomous system and other low level functionality.
 
 ## Environment Setup- Docker ##
 - Windows 10 64-bit: Pro, Enterprise, or Education
