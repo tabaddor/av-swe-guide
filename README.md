@@ -23,7 +23,7 @@ Welcome! This is the ultimate autonomous vehicles guide for all **computer scien
 - [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources-1)
 - [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
 - [ ] [What can you do now?](https://github.com/tabaddor/av-swe-guide#what-can-you-do-now)
-- [ ] [**FAQ**](https://github.com/tabaddor/av-swe-guide#faq-speech_balloon)
+- [ ] [FAQ](https://github.com/tabaddor/av-swe-guide#faq-speech_balloon)
 
 # How to Contribute
 :white_check_mark: This is an open source guide, so contributions are very much welcome. To contribute:
@@ -97,7 +97,7 @@ For those who are computer science students at a university or a software engine
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
 
 # Why Autonomous Vehicles?
-Your reasons for using this guide will be unique to you. For me, it was the awe and pure challenge of making a car drive on its own, while also improving my career prospects. A simple reason, which is completely fine. Regardless of your reason for using this guide, here's some motivation and concepts I hope will inspire you even more.
+Regardless of your reason for using this guide, here's some motivation and concepts I hope will inspire you.
 
 ## Motivation :muscle: ##
 > "*Whether you think you can, or think you can't, you're right*." - Henry Ford
@@ -114,10 +114,6 @@ As one of the most debated, challenging, and impactful piece of technology in th
 
 ## Our Future :zap: ##
 Throughout this guide, it is my goal to provide relevant concepts in psychology and philosophy, as artificial intelligence, AVs, and computer science all intersect in some aspects. One podcast I recommend you listen to is Lex Fridman's interview with Elon Musk.
-
-**VIDEO/PODCAST:** [The Artificial Intelligence Podcast: Lex Fridman and Elon Musk](https://www.youtube.com/watch?v=dEv99vxKjVI) :robot:
-
-**Take advantage of the resources related to psychology/philosphy!**
 
 Though a seemingly bold claim, autonomous vehicles *will* be the future of mobility and transportation. **You can contribute to this future**, which is awesome.
 
@@ -342,6 +338,10 @@ The high level idea behind Deep Learning is building machine learning algorithms
 - [ ] [Neurons and the Brain](https://www.coursera.org/learn/machine-learning/lecture/IPmzw/neurons-and-the-brain)
 - [ ] [Neural Network Model Representation](https://www.coursera.org/learn/machine-learning/lecture/ka3jK/model-representation-i)
 
+### [**First Neural Network for Beginners Explained (with code)**](https://towardsdatascience.com/first-neural-network-for-beginners-explained-with-code-4cfd37e06eaf) :brain:
+
+### [**Neural Networks from Scratch**](https://medium.com/towards-artificial-intelligence/building-neural-networks-from-scratch-with-python-code-and-math-in-detail-i-536fae5d7bbf)
+
 A specifc class of Neural Networks you should familiarize yourself with are Convolutional Neural Networks, which are involved in tasks including object detection, image processing, classification, and image segmentation.
 ### Convolutional Neural Networks ###
 - [ ] [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
@@ -359,7 +359,7 @@ Will be updated.
 - **Machine Learning:** A subset of artificial intelligence that provides a computer, or system, the ability to improve its performance on a task by learning from experience.
 - **Supervised Learning:** A type of machine learning task that is provided labeled training data.
 - **Unsupervised Learning:** A type of machine learning task that is provided unlabeled training data.
-- **Classification Problems:** A machine learning task that invovles discrete valued output ("boy" or "girl"; "dog" or "cat").
+- **Classification Problems:** A machine learning task that involves discrete valued output ("boy" or "girl"; "dog" or "cat").
 - **Regression Problems:** A machine learning task that involves continuous/numerical valued output ("find the expected housing price given this data")
 - **Gradient Descent:** An optimization algorithm for finding the local minimum of a differentiable function. When we say machine learning algorithms involve slow altering a function (hypothesis) to converge to the optimal output, we are referring to this idea of gradient descent.
 - **Deep Learning:** A subset of machine learning that bases its methods off of artificial neural networks with representation learning. 
