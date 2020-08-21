@@ -350,10 +350,12 @@ A specifc class of Neural Networks you should familiarize yourself with are Conv
 - [ ] [Why Convolutions?](https://www.coursera.org/lecture/convolutional-neural-networks/why-convolutions-Xv7B5)
 - [ ] [Feedforward Neural Networks]()
 
-### [MIT's Deep Learning for Self Driving Cars](https://deeplearning.mit.edu/)
+Choose from **at least one** of the below:
+1. ### [MIT's Deep Learning for Self Driving Cars](https://deeplearning.mit.edu/)
+2. ### [Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
 
 ### Section Tutorials/Projects ###
-Will be updated.
+Will be updated. Expect projects to work with implementing basic machine learning models, neural networks, and reinforcement learning.
 
 ### Section Terminology ###
 - **Machine Learning:** A subset of artificial intelligence that provides a computer, or system, the ability to improve its performance on a task by learning from experience.
