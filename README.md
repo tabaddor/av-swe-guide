@@ -324,6 +324,8 @@ The high level idea behind Deep Learning is building machine learning algorithms
 
 ![AI-ML-DL](https://user-images.githubusercontent.com/44756122/90686626-9f30a500-e239-11ea-893a-07555816fa57.png)
 
+**Machine Learning and Deep Learning** are such large fields, with a lot of infomration. Don't feel overwhelmed, but try to read as much as you can, and code as much as you can. Here is a [page containing resources for Machine Learning](https://github.com/tabaddor/Machine-Learning)
+
 ### Machine Learning Overview ###
 - [ ] [What is Machine Learning?](https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning)
 - [ ] [Supervised Learning](https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervised-learning)
@@ -359,15 +361,15 @@ Will be updated. Expect projects to work with implementing basic machine learnin
 
 ### Section Terminology ###
 - **Machine Learning:** A subset of artificial intelligence that provides a computer, or system, the ability to improve its performance on a task by learning from experience.
-- **Supervised Learning:** A type of machine learning task that is provided labeled training data.
-- **Unsupervised Learning:** A type of machine learning task that is provided unlabeled training data.
+- **Supervised Learning:** A type of machine learning task that is provided labeled training data (both x and y are known).
+- **Unsupervised Learning:** A type of machine learning task that is provided unlabeled training data (only y is known).
 - **Classification Problems:** A machine learning task that involves discrete valued output ("boy" or "girl"; "dog" or "cat").
 - **Regression Problems:** A machine learning task that involves continuous/numerical valued output ("find the expected housing price given this data")
-- **Gradient Descent:** An optimization algorithm for finding the local minimum of a differentiable function. When we say machine learning algorithms involve slow altering a function (hypothesis) to converge to the optimal output, we are referring to this idea of gradient descent.
+- **Gradient Descent:** An optimization algorithm for finding the local minimum of a differentiable function. When we say machine learning algorithms involve slow altering of a function (hypothesis) to converge to the optimal output, we are referring to this idea of gradient descent.
 - **Deep Learning:** A subset of machine learning that bases its methods off of artificial neural networks with representation learning. 
-- **Neural Network:** Algorithms based off the biological neural networks, designed to mimic the way the human brain operators. Neural networks are meant to adapt to input and generate the best possible result without needing to redesign the machine learning model/algorithm. 
+- **Neural Network:** Algorithms based off the biological neural networks, designed to mimic the way the human brain operates. Neural networks are meant to adapt to input and generate the best possible result without needing to redesign the machine learning model/algorithm. 
 - **Convolutional Neural Network:** A class of neural networks applied to visual imagery such as object detection.
-- **Stochastic Gradient Descent:** A deterministic approximation o gradient descent. Much more effieicnt algortihm that iteratively computes gradient descent as traditionally defined. 
+- **Stochastic Gradient Descent:** A deterministic approximation to gradient descent. Much more effieicnt algortihm that iteratively computes gradient descent as traditionally defined. 
 
 # 5. State Estimation and Localization #
 
