@@ -320,6 +320,8 @@ use different metrics to measure code quality.
 
 
 # 4. Deep Learning for Self-Driving Cars #
+The resources in this section will be enough to get started with deep learning. Remind you, it takes _years_ to understand/master the concepts in ML and deep learning.
+
 The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free. Also, [**this**](https://github.com/tabaddor/Machine-Learning) has some great resources compiled for machine learning, deep learning, and computer vision.
 
 ![AI-ML-DL](https://user-images.githubusercontent.com/44756122/90686626-9f30a500-e239-11ea-893a-07555816fa57.png)
@@ -374,16 +376,41 @@ Will be updated. Expect projects to work with implementing basic machine learnin
 # 5. State Estimation and Localization #
 
 ### Least Squares ###
+- [ ] [Squared Error Criterion and the Method of Least Squares](https://www.coursera.org/lecture/state-estimation-localization-self-driving-cars/lesson-1-part-1-squared-error-criterion-and-the-method-of-least-squares-zDFtr)
+- [ ] [Squared Error Criterion and the Method of Least Squares - Part 2](https://www.coursera.org/lecture/state-estimation-localization-self-driving-cars/lesson-1-part-2-squared-error-criterion-and-the-method-of-least-squares-Ewy9K)
+- [ ] [Recursive Least Squares](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/0UbTb/lesson-2-recursive-least-squares)
+- [ ] [Research on Lane Change Decision for Autonomous Vehicles Based on Multi-Kernels Least Square Policy Iteration](https://ieeexplore.ieee.org/abstract/document/8047653)
 
 ### State Estimation and Kalman Filters ###
+- [ ] [Introduction to Kalman Filters and Its Applications](https://www.intechopen.com/books/introduction-and-implementations-of-the-kalman-filter/introduction-to-kalman-filter-and-its-applications)
+- [ ] [The Kalman Filter](https://www.coursera.org/lecture/state-estimation-localization-self-driving-cars/lesson-1-the-linear-kalman-filter-7DFmY)
+- [ ] [The Extended Kalman Filter](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/qIyk3/lesson-3-going-nonlinear-the-extended-kalman-filter)
+- [ ] [Basic Kalman Filter in C++](https://github.com/hmartiro/kalman-cpp)
 
 ### Pose Estimation ###
+- [ ] [3D Geometry and References Frames](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/ccy3B/lesson-1-3d-geometry-and-reference-frames)
+- [ ] [Pose Estimation of a Textured Object](https://docs.opencv.org/master/dc/d2c/tutorial_real_time_pose.html)
+- [ ] [TensorFlow C++ Pose Estimation](https://github.com/jenshemprich/tf-cpp-pose-estimation)
+- [ ] [Why Sensor Fusion?](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/HCP35/why-sensor-fusion)
 
 ### LiDar Sensing ###
+You may have heard that Elon Musk and Tesla stay away from LiDar for their own reasons, one being that LiDar is expensive. Well, it used to be expensive. LiDar is becoming less expensive and is best suited for self-driving cars.
+
+- [ ] [Light Detection and Ranging Sensors](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/3NXgp/lesson-1-light-detection-and-ranging-sensors)
+- [ ] [LiDar Sensing Models and Point Clouds](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/Huunu/lesson-2-lidar-sensor-models-and-point-clouds)
+- [ ] [Pose Estimation from LiDar Data](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/XE9kZ/lesson-3-pose-estimation-from-lidar-data)
 
 ### Section Tutorials/Projects ###
+Will be updated.
 
 ### Section Terminology ###
+- **State Estimation and Localization:**
+- **Least Squares:**
+- **Pose Estimation:**
+- **Kalman Filter:**
+- **LiDar Sensing:**
+- **Sensor Fusion:**
+- **Point Clouds:**
 
 # 6. Perception #
 
