@@ -374,6 +374,7 @@ Will be updated. Expect projects to work with implementing basic machine learnin
 - **Stochastic Gradient Descent:** A deterministic approximation to gradient descent. Much more effieicnt algortihm that iteratively computes gradient descent as traditionally defined. 
 
 # 5. State Estimation and Localization #
+State estimation is the problem of determining the current **state** of a system, such as a vehicle. Localization is the implementation of algorithms for state estimation with an error of less than a small, non-zero value. 
 
 ### Least Squares ###
 - [ ] [Squared Error Criterion and the Method of Least Squares](https://www.coursera.org/lecture/state-estimation-localization-self-driving-cars/lesson-1-part-1-squared-error-criterion-and-the-method-of-least-squares-zDFtr)
