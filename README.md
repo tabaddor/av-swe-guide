@@ -414,8 +414,16 @@ Will be updated.
 - **Point Clouds:**
 
 # 6. Perception #
+For the purposes of this guide, perception and computer vision are synonymous. Perception deals with training our vehicle to perceive its environment in order to act on what it perceives. How does it perceive its environment? **With sensors**. And how does the vehicle make sense of the sensor data? **With computer vision algorithms.**
 
 ### Computer Vision ###
+- [ ] [Computer Vision for Autonomous Vehicles **HIGHLY RECOMMENDED**](https://arxiv.org/pdf/1704.05519.pdf)
+
+Today, there are two main ways of performing vision. Classical vision or deep learning. This guide will provide resources for understanding and working with both methods.
+
+##### Classical Vision #####
+
+##### Vision with Deep Learning #####
 
 ### Sensors and Cameras ###
 
@@ -428,6 +436,14 @@ Will be updated.
 ### Section Tutorials/Projects ###
 
 ### Section Terminology ###
+- **Computer Vision:**
+- **Datasets:**
+- **Sensors:**
+- **Cameras:**
+- **Object Detection:**
+- **Object Segmentation:**
+- **Classical Vision:**
+- **Convolutional Neural Networks:**
 
 # 7. Motion Planning #
 
