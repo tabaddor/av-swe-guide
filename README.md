@@ -1,5 +1,5 @@
 # Software Engineering for Self-Driving Cars Guide :car:
-Welcome! This is the ultimate autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*. As an open source project that is continuously updating and improving, we are hoping to provide high-quality, free education for those interested in learning more about autonomous vehicle software development. 
+Welcome to the ultimate autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*. As an open source project that is continuously updating and improving, we are hoping to provide high-quality, free education for those interested in learning more about autonomous vehicle software development. 
 
 > An autonomous car is a vehicle capable of sensing its environment and operating without human involvement. A human passenger is not required to take control of the vehicle at any time, nor is a human passenger required to be present in the vehicle at all. An autonomous car can go anywhere a traditional car goes and do everything that an experienced human driver does.
 [source](https://www.synopsys.com/automotive/what-is-autonomous-car.html)
@@ -472,6 +472,14 @@ Today, there are two main ways of performing vision. Classical vision or deep le
 ### Static and Dynamic Analysis ###
 
 ### Simulation ###
+
+# Bonus: Mathematics for Self-Driving Cars #
+
+### Linear Algebra ###
+
+### Statistics ###
+
+### Information Theory ###
 
 # The Most Important Thing #
 Languages will come and go. Frameworks will come and and go. Tools and technologies will come and go. Understanding the idea, theory, and/or mathematics behind the concepts, rather than memorizing snippets of code, is the most important thing. 
