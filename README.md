@@ -422,8 +422,10 @@ For the purposes of this guide, perception and computer vision are synonymous. P
 Today, there are two main ways of performing vision. Classical vision or deep learning. This guide will provide resources for understanding and working with both methods.
 
 ##### Classical Vision #####
+- [ ] [OpenCV Tutorials for Classical Vision](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
 
 ##### Vision with Deep Learning #####
+Make sure you have first gone through the Deep Learning section to understand the underlying theory and concepts. 
 
 ### Sensors and Cameras ###
 
