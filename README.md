@@ -113,11 +113,9 @@ As one of the most debated, challenging, and impactful piece of technology in th
 
 
 ## Our Future :zap: ##
-Throughout this guide, it is my goal to provide relevant concepts in psychology and philosophy, as artificial intelligence, AVs, and computer science all intersect in some aspects. One podcast I recommend you listen to is Lex Fridman's interview with Elon Musk.
-
 Though a seemingly bold claim, autonomous vehicles *will* be the future of mobility and transportation. **You can contribute to this future**, which is awesome.
 
-Not only that, but they reduce urban travel time and have a strong environmental impact. :sunflower: Here's a google query with some interesting articles about the environmental impact self-driving cars may have ([ENVIRONMENT IMPACTS - GOOGLE QUERY](https://www.google.com/search?client=firefox-b-1-d&q=self+driving+cars+impact+on+environment)).
+Not only that, but they reduce urban travel time and have a strong environmental impact. :sunflower:
 
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
@@ -324,9 +322,7 @@ The resources in this section will be enough to get started with deep learning. 
 
 The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free. Also, [**this**](https://github.com/tabaddor/Machine-Learning) has some great resources compiled for machine learning, deep learning, and computer vision.
 
-![AI-ML-DL](https://user-images.githubusercontent.com/44756122/90686626-9f30a500-e239-11ea-893a-07555816fa57.png)
-
-**Machine Learning and Deep Learning** are such large fields, with a lot of infomration. Don't feel overwhelmed, but try to read as much as you can, and code as much as you can. Here is a [page containing resources for Machine Learning](https://github.com/tabaddor/Machine-Learning)
+**Machine Learning and Deep Learning** are such large fields, with a lot of infomration. Don't feel overwhelmed, but try to read as much as you can, and code as much as you can. Here is a [page containing resources for Machine Learning, Deep Learning, and Computer Vision.](https://github.com/tabaddor/Machine-Learning)
 
 ### Machine Learning Overview ###
 - [ ] [What is Machine Learning?](https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning)
@@ -335,6 +331,7 @@ The high level idea behind Deep Learning is building machine learning algorithms
 - [ ] [Classification](https://www.coursera.org/learn/machine-learning/lecture/wlPeP/classification)
 - [ ] [Stanford CS229 Machine Learning](http://cs229.stanford.edu/)
 - [ ] [University of Michigan EECS 445 Machine Learning](https://eecs445-f16.github.io/)
+- [ ] [University of Michigan EECS 445 Machine Learning Resources](https://github.com/eecs445-f16/umich-eecs445-f16)
 
 ### Neural Networks ###
 - [ ] [What is a Neural Network?](https://www.coursera.org/learn/neural-networks-deep-learning/lecture/eAE2G/what-is-a-neural-network)
@@ -359,7 +356,7 @@ Choose from **at least one** of the below:
 2. ### [Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
 
 ### Section Tutorials/Projects ###
-Will be updated. Expect projects to work with implementing basic machine learning models, neural networks, and reinforcement learning.
+Will be updated. Expect projects to work with implementing basic machine learning models, neural networks, and computer vision.
 
 ### Section Terminology ###
 - **Machine Learning:** A subset of artificial intelligence that provides a computer, or system, the ability to improve its performance on a task by learning from experience.
@@ -419,7 +416,7 @@ For the purposes of this guide, perception and computer vision are synonymous. P
 ### Computer Vision ###
 - [ ] [Computer Vision for Autonomous Vehicles **HIGHLY RECOMMENDED**](https://arxiv.org/pdf/1704.05519.pdf)
 
-Today, there are two main ways of performing vision. Classical vision or deep learning. This guide will provide resources for understanding and working with both methods.
+Today, there are two main ways of performing vision: Classical vision and machine learning. This guide will provide resources for understanding and working with both methods.
 
 ##### Classical Vision #####
 - [ ] [OpenCV Tutorials for Classical Vision](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
@@ -503,9 +500,6 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 [Waymo](https://waymo.com/) is an autonomous driving technology company that is a subsiduary of Alphabet, Inc. 
 
 [**Open Roles**](https://waymo.com/joinus/)
-
-**Research**
-- [Scalability in Perception for Autonomous Driving](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf)
 
 ### Cruise
 [Cruise](https://www.getcruise.com/) is a self-driving car company owned by General Motors (GM).
