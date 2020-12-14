@@ -402,13 +402,13 @@ You may have heard that Elon Musk and Tesla stay away from LiDar for their own r
 Will be updated.
 
 ### Section Terminology ###
-- **State Estimation and Localization:**
-- **Least Squares:**
-- **Pose Estimation:**
-- **Kalman Filter:**
-- **LiDar Sensing:**
-- **Sensor Fusion:**
-- **Point Clouds:**
+- **State Estimation and Localization:** State estimation involves determining the state of an object, vehicle, or self. Localization is essentially how a vehicle figures out its location, or where it is, whch involves using its on-board cameras and sensors to estimate positions.
+- **Least Squares:** Minimize the squared difference between an observed and expected values.
+- **Pose Estimation:** Is a subset of computer vision that involves locating and tracking the position of an object or specific parts of an object.
+- **Kalman Filter:** A KF provides estimates of some unknown signal overtime given previously determined measurements for that signal, or correlated signals.
+- **LiDar Sensing:** Illuminate a target object with a laser light, and then measure the reflection.
+- **Sensor Fusion:** Ability to bring together multiple inputs from multiple different sensors to construct one world model and understanding of an environment.
+- **Point Clouds:** A set of data points in space that represent a 3D shape or object.
 
 # 6. Perception #
 For the purposes of this guide, perception and computer vision are synonymous. Perception deals with training our vehicle to perceive its environment in order to act on what it perceives. How does it perceive its environment? **With sensors**. And how does the vehicle make sense of the sensor data? **With computer vision algorithms.**
@@ -507,7 +507,7 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 [**Open Roles**](https://www.getcruise.com/careers/software)
 
 ### Ford
-[Ford] Motor Company is an American automaker now building hybrid and electric vehicles, AVs, SUVs, and Crossovers.
+[Ford](https://www.ford.com) Motor Company is an American automaker now building hybrid and electric vehicles, AVs, SUVs, and Crossovers.
 
 [**Open Roles**](http://corporate.ford.com/careers.html?gnav=footer-aboutford)
 
