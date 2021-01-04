@@ -473,10 +473,14 @@ Make sure you have first gone through the Deep Learning section to understand th
 ### Simulation ###
 
 # Bonus: Mathematics for Self-Driving Cars #
+Mathematics is fundamental to most engineering concepts, especially those involved in designing and testing the systems of AVs. Here are a few key resources and topics to review if you are interested.
 
 ### Linear Algebra ###
+- [MIT Open Courseware](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+- [Khan Academy](https://www.khanacademy.org/math/linear-algebra)
 
 ### Statistics ###
+- [MIT Open Courseware](https://ocw.mit.edu/courses/mathematics/18-443-statistics-for-applications-spring-2015/)
 
 ### Information Theory ###
 
