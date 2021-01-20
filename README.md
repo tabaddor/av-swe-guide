@@ -424,25 +424,32 @@ Today, there are two main ways of performing vision: Classical vision and machin
 ##### Vision with Deep Learning #####
 Make sure you have first gone through the Deep Learning section to understand the underlying theory and concepts. 
 
+- [Deep Learning for Computer Vision: University of Michigan All Lectures](https://www.youtube.com/watch?v=dJYGatp4SvA&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
+
 ### Sensors and Cameras ###
+- [The Camera Sensor](https://www.coursera.org/lecture/visual-perception-self-driving-cars/lesson-1-part-1-the-camera-sensor-ziCGj)
 
 ### Camera Calibration ###
+- [Camera Calibration](https://www.coursera.org/learn/visual-perception-self-driving-cars/lecture/EEu6i/lesson-2-camera-calibration)
+- [Image Filtering](https://www.coursera.org/learn/visual-perception-self-driving-cars/lecture/AMoYz/lesson-4-image-filtering)
+- [Image Features and Feature Descriptors](https://www.coursera.org/learn/visual-perception-self-driving-cars/lecture/V7iCJ/lesson-1-introduction-to-image-features-and-feature-detectors)
 
 ### Object Detection ###
+- [Object Detection Guide](https://www.fritz.ai/object-detection/)
+- [Gentle Introduction to Object Detection with Machine Learning](https://machinelearningmastery.com/object-recognition-with-deep-learning/)
+- [YOLO Original Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html)
 
 ### Semantic Segmentation ###
 
 ### Section Tutorials/Projects ###
 
 ### Section Terminology ###
-- **Computer Vision:**
-- **Datasets:**
-- **Sensors:**
-- **Cameras:**
-- **Object Detection:**
-- **Object Segmentation:**
-- **Classical Vision:**
-- **Convolutional Neural Networks:**
+- **Computer Vision:** How can computers understand a situation based on images? CV is all about extracting and making use of interesting and important features of an image, which is really just made up on pixels which can be represented as vectors/matrices, to ultimately interpret an environment.
+- **Sensors:** Devices that perceive the environment and provide information to actuators or algorithms which make sense of the data received via the sensors. For computer vision, sensors include cameras, radars, and LiDar. 
+- **Object Detection:** Related to computer vision and image processing that deals with detecting instances of objects in a given frame or image.
+- **Image Segmentation:** Identify every pixel that belongs to a specific object in a frame or image.
+- **Classical Vision:** Classical techniques for computer vision involve leveraging and extracting features of an image or frame without the use of ML or DL.
+- **Convolutional Neural Networks:** A type of Deep Learning algorithm suited for images and computer vision tasks. More info on CNN's [here](http://yann.lecun.com/exdb/publis/pdf/lecun-bengio-95a.pdf).
 
 # 7. Motion Planning #
 
