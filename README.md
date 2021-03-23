@@ -454,14 +454,18 @@ Make sure you have first gone through the Deep Learning section to understand th
 # 7. Motion Planning #
 
 ### The Problem ###
+Motion planning, also known as **path planning**, is the the problem of finding a sequence of valid motions, configurations, steps, etc that allow an agent to go from its source location to goal destination. Motional planning has several key applications in robotics and autonomous vehicles, rightfully so. In this section, we will break down some key aspects of this function.
 
 ### Planning ###
+- [ ] [Robotics: Computational Motion Planning](https://www.coursera.org/learn/robotics-motion-planning)
+- [ ] [EECS 367 Autonomous Robotics Course at the University of Michigan Homepage](https://autorob.org/)
+- [ ] [Path Planning Algorithms in C++](https://github.com/vss2sn/path_planning)
 
 ### Mapping ###
+- [ ] [Simultaneous Localization and Mapping (SLAM) Paper: Essential Algorithms](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/Durrant-Whyte_Bailey_SLAM-tutorial-I.pdf)
+- [ ] [Visual SLAM Resources](https://github.com/tzutalin/awesome-visual-slam)
 
 ### Dynamic Objects ###
-
-### Types of Planning ###
 
 ### Section Tutorials/Projects ###
 
