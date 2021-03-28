@@ -551,9 +551,6 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 
 [**Open Roles**](https://jobs.harman.com/)
 
-# What can you do now?
-Some inspirational, yet concrete advice coming your way. Lorem Ipsum Dolor.
-
 # FAQ :speech_balloon:
 #### Q: Who can use this guide? ####
 A: This guide is mainly geared towards computer science students and software engineers looking to learn more about the self-driving car industry. With that said, 
