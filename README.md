@@ -135,11 +135,6 @@ I recommend briefly skimming through [ISO 26262](https://www.iso.org/standard/43
 
 _Standards aid in making sure the code you write as a developer is carefully evaluated, inspected by others, and tested during the development process to mitigate risk_. This is an essential component of software engineering for any safety critical system, as a lot of emphasis is placed on "careful coding."
 
-One way to look at the challenge of developing self-driving cars is that it seems as if there are "infinite" edge cases. This is exciting, yet one of the bigger challenges that self-driving cars face.
-
-**VIDEO**: [The Real Moral Dilemma of Self Driving Cars](https://www.youtube.com/watch?v=WBjY3QGNdAw)
-**RESEARCH PAPER**" [Self Driving cars and the urban challenge](https://github.com/tabaddor/av-swe-guide#faq)
-
 #### Example of a Safety Critical System for Self-Driving Cars ####
 * [Advanced Driver Assistance Systems (ADAS)](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems)
 <img src="https://user-images.githubusercontent.com/44756122/86860654-3fb87480-c093-11ea-8931-c280979f38a8.jpg" height="650px" width="800px">
@@ -294,8 +289,6 @@ His YouTube channel can be found in the [Resources section](https://github.com/t
 - [ ] [Best Practices for Unit Testing](https://www.youtube.com/watch?v=Qkzjmgn8zto)
 - [ ] [Embedded Software Security, Safety, and Quality](https://www.youtube.com/watch?v=elK0GJUm958)
 
-**VIDEO/INTERVIEW**: [Speaking of Psychology: Self-Driving Cars](https://www.apa.org/research/action/speaking-of-psychology/self-driving-cars)
-
 
 ### Section Tutorials and Projects: ###
 - [ ] [Testing Tutorial](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials/testing)(_Note: This is the same tutorial listed in the [Testing](https://github.com/tabaddor/av-swe-guide#8-testing) section_)
@@ -338,10 +331,6 @@ The high level idea behind Deep Learning is building machine learning algorithms
 - [ ] [Non-Linear Hypothesis](https://www.coursera.org/learn/machine-learning/lecture/OAOhO/non-linear-hypotheses)
 - [ ] [Neurons and the Brain](https://www.coursera.org/learn/machine-learning/lecture/IPmzw/neurons-and-the-brain)
 - [ ] [Neural Network Model Representation](https://www.coursera.org/learn/machine-learning/lecture/ka3jK/model-representation-i)
-
-### [**First Neural Network for Beginners Explained (with code)**](https://towardsdatascience.com/first-neural-network-for-beginners-explained-with-code-4cfd37e06eaf) :brain:
-
-### [**Neural Networks from Scratch**](https://medium.com/towards-artificial-intelligence/building-neural-networks-from-scratch-with-python-code-and-math-in-detail-i-536fae5d7bbf)
 
 A specifc class of Neural Networks you should familiarize yourself with are Convolutional Neural Networks, which are involved in tasks including object detection, image processing, classification, and image segmentation.
 ### Convolutional Neural Networks ###
@@ -494,6 +483,7 @@ Mathematics is fundamental to most engineering concepts, especially those involv
 - [MIT Open Courseware](https://ocw.mit.edu/courses/mathematics/18-443-statistics-for-applications-spring-2015/)
 
 ### Information Theory ###
+- [Introduction to Information Theory](https://web.stanford.edu/~montanar/RESEARCH/BOOK/partA.pdf)
 
 # The Most Important Thing #
 Languages will come and go. Frameworks will come and and go. Tools and technologies will come and go. Understanding the idea, theory, and/or mathematics behind the concepts, rather than memorizing snippets of code, is the most important thing. 
