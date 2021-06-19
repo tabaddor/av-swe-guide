@@ -310,7 +310,7 @@ use different metrics to measure code quality.
 
 
 
-# 4. Deep Learning for Self-Driving Cars #
+# 4. Deep Learning for Self-Driving Cars 🧠 #
 The resources in this section will be enough to get started with deep learning. Remind you, it takes _years_ to understand/master the concepts in ML and deep learning.
 
 The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free. Also, [**this**](https://github.com/tabaddor/Machine-Learning) has some great resources compiled for machine learning, deep learning, and computer vision.
@@ -399,7 +399,7 @@ Will be updated.
 - **Sensor Fusion:** Ability to bring together multiple inputs from multiple different sensors to construct one world model and understanding of an environment.
 - **Point Clouds:** A set of data points in space that represent a 3D shape or object.
 
-# 6. Perception #
+# 6. Perception 👀 #
 For the purposes of this guide, perception and computer vision are synonymous. Perception deals with training our vehicle to perceive its environment in order to act on what it perceives. How does it perceive its environment? **With sensors**. And how does the vehicle make sense of the sensor data? **With computer vision algorithms.**
 
 ### Computer Vision ###
@@ -484,9 +484,6 @@ Mathematics is fundamental to most engineering concepts, especially those involv
 
 ### Information Theory ###
 - [Introduction to Information Theory](https://web.stanford.edu/~montanar/RESEARCH/BOOK/partA.pdf)
-
-# The Most Important Thing #
-Languages will come and go. Frameworks will come and and go. Tools and technologies will come and go. Understanding the idea, theory, and/or mathematics behind the concepts, rather than memorizing snippets of code, is the most important thing. 
 
 
 # Resources
