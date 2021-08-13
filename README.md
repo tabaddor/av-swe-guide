@@ -104,19 +104,6 @@ Regardless of your reason for using this guide, here's some motivation and conce
 
 > "*Self-driving cars are the natural extension of active safety and obviously something we should do*." - Elon Musk
 
-As one of the most debated, challenging, and impactful piece of technology in the automotive industry, developing software for such systems is exciting. Some call self driving car technology the 21st Century Gold Rush.
-
-- **WIRED ARTICLE**: [Self Driving Cars](https://www.wired.com/story/guide-self-driving-cars/)
-- **WEBSITE Page**: [The Ethics of Autonomous Cars](https://ethicsofautonomouscars.weebly.com/ethics.html)
-- **RESEARCH PAPER**: [A survey of public opinion about self driving vehicles](https://deepblue.lib.umich.edu/handle/2027.42/108384)
-- **VIDEO**: [Tesla Self Driving Car Timelapse Drive](https://www.youtube.com/watch?v=tlThdr3O5Qo)
-
-
-## Our Future :zap: ##
-Though a seemingly bold claim, autonomous vehicles *will* be the future of mobility and transportation. **You can contribute to this future**, which is awesome.
-
-Not only that, but they reduce urban travel time and have a strong environmental impact. :sunflower:
-
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
 >  comprises everything (hardware, software, and human aspects) needed to perform one or more safety functions, in which failure would cause a significant increase in the safety risk for the people or environment involved.
