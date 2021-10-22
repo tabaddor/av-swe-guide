@@ -1,5 +1,5 @@
 # Software Engineering for Self-Driving Cars Guide :car:
-Welcome to the ultimate autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*. As an open source project that is continuously updating and improving, we are hoping to provide high-quality, free education for those interested in learning more about autonomous vehicle software development. 
+Welcome to the autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*. As an open source project that is continuously updating and improving, we are hoping to provide high-quality, free education for those interested in learning more about autonomous vehicle software development. 
 
 > An autonomous car is a vehicle capable of sensing its environment and operating without human involvement. A human passenger is not required to take control of the vehicle at any time, nor is a human passenger required to be present in the vehicle at all. An autonomous car can go anywhere a traditional car goes and do everything that an experienced human driver does.
 [source](https://www.synopsys.com/automotive/what-is-autonomous-car.html)
@@ -99,11 +99,6 @@ For those who are computer science students at a university or a software engine
 # Why Autonomous Vehicles?
 Regardless of your reason for using this guide, here's some motivation and concepts I hope will inspire you.
 
-## Motivation :muscle: ##
-> "*Whether you think you can, or think you can't, you're right*." - Henry Ford
-
-> "*Self-driving cars are the natural extension of active safety and obviously something we should do*." - Elon Musk
-
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
 >  comprises everything (hardware, software, and human aspects) needed to perform one or more safety functions, in which failure would cause a significant increase in the safety risk for the people or environment involved.
@@ -134,9 +129,8 @@ Examples of ADAS include [adaptive cruise control](https://www.youtube.com/watch
 Software engineers working on self driving cars will:
 * Tackle the hardest challenge of our generation
 * Work with cutting edge technology that will impact the lives and safety of people everywhere
-* Collaborate with the generation's brightest minds in other engineering fields (electrical, mechanical, systems, etc)
+* Collaborate with the generation's brightest minds across disciplines
 
-Pumped yet? :muscle:
 
 # 1. Introduction #
 This introductory section will provide high level overviews about the history of autonomous vehicles, basic autonomous vehicle taxonomy/terminology, and the current state of self-driving cars. This section is not overly technical, but interesting and important nonetheless.
