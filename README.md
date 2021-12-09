@@ -1,5 +1,5 @@
 # Software Engineering for Self-Driving Cars Guide :car:
-Welcome to the autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*. As an open source project that is continuously updating and improving, we are hoping to provide high-quality, free education for those interested in learning more about autonomous vehicle software development. 
+Welcome to the autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*.
 
 > An autonomous car is a vehicle capable of sensing its environment and operating without human involvement. A human passenger is not required to take control of the vehicle at any time, nor is a human passenger required to be present in the vehicle at all. An autonomous car can go anywhere a traditional car goes and do everything that an experienced human driver does.
 [source](https://www.synopsys.com/automotive/what-is-autonomous-car.html)
@@ -95,9 +95,6 @@ For those who are computer science students at a university or a software engine
 - [ ] [Basic Git & Linux Command Knowledge](https://www.linux.com/topic/desktop/introduction-using-git/) (Optional)
 - [ ] Basic [Software Development](https://www.ibm.com/topics/software-development) Knowledge (Optional)
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
-
-# Why Autonomous Vehicles?
-Regardless of your reason for using this guide, here's some motivation and concepts I hope will inspire you.
 
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
