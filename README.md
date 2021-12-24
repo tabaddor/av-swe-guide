@@ -43,9 +43,6 @@ Make the changes on your forked version, and then submit a pull request which wi
 # Contribution Guidelines
 View the complete contribution guidelines, [here](contributing.md).
 
-#### Wait! Don't forget to give this project a star! ####
-![recording](https://user-images.githubusercontent.com/44756122/84942050-449b9100-b0b0-11ea-9a2c-5736759b25e9.gif)
-
 # Getting Started w/ the Guide :tada:
 ### Introduction ###
 You can use this guide however you like. If you prefer to follow along material by material, go ahead. If you want to skip ahead, come back, skip ahead again, do as you wish. To get started with basic navigation and resources, briefly skim through the below tips.
@@ -62,13 +59,8 @@ The [contributing document](https://github.com/tabaddor/av-swe-guide/blob/master
 #### Tutorials ####
 **On the GitHub page, the tutorials can be found in the ['tutorials'](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials) folder**
 
-**To work locally, first clone the repository page, and simply cd into the tutorial root directory:**
-```
-cd av-swe-guide/tutorials/<tutorial-name>
-```
-
 #### Resources ####
-Other resources outside of the structured roadmap this project compiles include YouTube channels, open source github projects (like Carla simulator). To be specific:
+Other resources outside of the structured roadmap this project compiles include YouTube channels, open source github projects. To be specific:
 1. [Resources](https://github.com/tabaddor/av-swe-guide#resources) (Links to YouTube channels, research papers, documentation, GitHub projects, and more that are touched upon in the guide)
 2. [Full-Time and Internship Opportunties](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase) :briefcase:
 3. Self Driving Car Company Developments and Research
@@ -91,16 +83,16 @@ For those who are computer science students at a university or a software engine
 - [ ] [Linear Algebra by MIT OpenCourseware](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
 - [ ] [C++](https://www.learncpp.com/) and/or [Python](https://www.coursera.org/specializations/python) programming is expected
 - [ ] Data Structures and Algorithms (Cracking the Coding Interview (book) **and/or** [Stanford's Algorithm Course](https://www.coursera.org/specializations/algorithms))
-- [ ] [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) **and/or** Hands On Machine Learning with Scikit-Learn & Tensor Flow (book) (Recommended, but optional)
-- [ ] [Basic Git & Linux Command Knowledge](https://www.linux.com/topic/desktop/introduction-using-git/) (Optional)
-- [ ] Basic [Software Development](https://www.ibm.com/topics/software-development) Knowledge (Optional)
+- [ ] [Mathematics for Machine Learning](https://mml-book.github.io/)
+- [ ] Basic Git & Linux Command Knowledge (Optional)
+- [ ] Basic Software Development Knowledge (Optional)
 - [ ] Familiarize yourself with Embedded Development and Safety Standards (Optional)
 
 ## Safety is Critical :vertical_traffic_light: ##
 Self-driving cars are safety critical. **_A safety critical system_** can be defined as something that:
 >  comprises everything (hardware, software, and human aspects) needed to perform one or more safety functions, in which failure would cause a significant increase in the safety risk for the people or environment involved.
 
-It is easy to acknowledge that autonomous vehicles need to be safe, but as a developer or someone working on self-driving systems, this is  incredibly important to keep in mind. Working with safety critical systems differs greatly from working on a web system. A bug in a web app may prevent users from registering for an account, but a bug in a safety critical system, like a self-driving car, _may result in human fatality unfortunately_. 
+It is easy to acknowledge that autonomous vehicles need to be safe, but as a developer or someone working on self-driving systems, this is  incredibly important to keep in mind. Working with safety critical systems differs greatly from working on a majority of the other systems.
 <img src="https://user-images.githubusercontent.com/44756122/86859632-139bf400-c091-11ea-917a-1a7d98f841fb.png" align="center" height="650px" width="800px" >
 
 #### IOS 26262 Safety Standard ####
@@ -293,7 +285,10 @@ The resources in this section will be enough to get started with deep learning. 
 
 The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free. Also, [**this**](https://github.com/tabaddor/Machine-Learning) has some great resources compiled for machine learning, deep learning, and computer vision.
 
-**Machine Learning and Deep Learning** are such large fields, with a lot of infomration. Don't feel overwhelmed, but try to read as much as you can, and code as much as you can. Here is a [page containing resources for Machine Learning, Deep Learning, and Computer Vision.](https://github.com/tabaddor/Machine-Learning)
+### Great Review ###
+- [] [Mathematics for Machine Learning](https://mml-book.github.io/)
+- [] [Deep Learning](https://www.deeplearningbook.org/)
+- [] [Reinforcement Learning](http://www.incompleteideas.net/book/the-book-2nd.html)
 
 ### Machine Learning Overview ###
 - [ ] [What is Machine Learning?](https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning)
@@ -332,9 +327,9 @@ Will be updated. Expect projects to work with implementing basic machine learnin
 - **Classification Problems:** A machine learning task that involves discrete valued output ("boy" or "girl"; "dog" or "cat").
 - **Regression Problems:** A machine learning task that involves continuous/numerical valued output ("find the expected housing price given this data")
 - **Gradient Descent:** An optimization algorithm for finding the local minimum of a differentiable function. When we say machine learning algorithms involve slow altering of a function (hypothesis) to converge to the optimal output, we are referring to this idea of gradient descent.
-- **Deep Learning:** A subset of machine learning that bases its methods off of artificial neural networks with representation learning. 
+- **Deep Learning:** A subset of machine learning that bases its methods off of artificial neural networks, loosely inspired by the human brain. 
 - **Neural Network:** Algorithms based off the biological neural networks, designed to mimic the way the human brain operates. Neural networks are meant to adapt to input and generate the best possible result without needing to redesign the machine learning model/algorithm. 
-- **Convolutional Neural Network:** A class of neural networks applied to visual imagery such as object detection.
+- **Convolutional Neural Network:** A class of neural networks applied to visual imagery such as object detection. 
 - **Stochastic Gradient Descent:** A deterministic approximation to gradient descent. Much more effieicnt algortihm that iteratively computes gradient descent as traditionally defined. 
 
 # 5. State Estimation and Localization #
@@ -359,7 +354,6 @@ State estimation is the problem of determining the current **state** of a system
 - [ ] [Why Sensor Fusion?](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/HCP35/why-sensor-fusion)
 
 ### LiDar Sensing ###
-You may have heard that Elon Musk and Tesla stay away from LiDar for their own reasons, one being that LiDar is expensive. Well, it used to be expensive. LiDar is becoming less expensive and is best suited for self-driving cars.
 
 - [ ] [Light Detection and Ranging Sensors](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/3NXgp/lesson-1-light-detection-and-ranging-sensors)
 - [ ] [LiDar Sensing Models and Point Clouds](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/Huunu/lesson-2-lidar-sensor-models-and-point-clouds)
@@ -381,7 +375,7 @@ Will be updated.
 For the purposes of this guide, perception and computer vision are synonymous. Perception deals with training our vehicle to perceive its environment in order to act on what it perceives. How does it perceive its environment? **With sensors**. And how does the vehicle make sense of the sensor data? **With computer vision algorithms.**
 
 ### Computer Vision ###
-- [ ] [Computer Vision for Autonomous Vehicles **HIGHLY RECOMMENDED**](https://arxiv.org/pdf/1704.05519.pdf)
+- [ ] [Computer Vision for Autonomous Vehicles](https://arxiv.org/pdf/1704.05519.pdf)
 
 Today, there are two main ways of performing vision: Classical vision and machine learning. This guide will provide resources for understanding and working with both methods.
 
@@ -470,7 +464,6 @@ Mathematics is fundamental to most engineering concepts, especially those involv
 - [*Embedded Software Development for Safety Critical Systems* by Chris Hobbs](https://www.amazon.com/Embedded-Software-Development-Safety-Critical-Systems/dp/1498726704). (this is not an affiliate link)
 - [Phil Koopman](https://www.youtube.com/channel/UC7QA0wx1m_aLyctDusU4X7g)
 - [Deep Learning with Lex Fridman](https://www.youtube.com/watch?v=0VH1Lim8gL8&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf&index=1)
-- [Beyond the Code - Machines, Algorithms, and Life](https://gobeyondthecode.com)
 - [openpilot: Open Source Driver Assistance Software](https://comma.ai/)
 
 
