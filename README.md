@@ -19,6 +19,8 @@ Welcome to the autonomous vehicles guide for all **computer science students**, 
 - [ ] [Perception](https://github.com/tabaddor/av-swe-guide#6-perception)
 - [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
 - [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
+## Research ##
+- [ ] TODO
 ## Resources/FAQ ##
 - [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources-1)
 - [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
