@@ -1,5 +1,5 @@
 # Software Engineering for Self-Driving Cars Guide :car:
-Welcome to the autonomous vehicles guide for all **computer science students**, **software engineers**, or those looking to develop foundational skills for *autonomous vehicle software development*.
+Welcome to the self-driving cars guide for **computer science students**, **software engineers**, and those looking to develop skills in *autonomous vehicle software*.
 
 > An autonomous car is a vehicle capable of sensing its environment and operating without human involvement. A human passenger is not required to take control of the vehicle at any time, nor is a human passenger required to be present in the vehicle at all. An autonomous car can go anywhere a traditional car goes and do everything that an experienced human driver does.
 [source](https://www.synopsys.com/automotive/what-is-autonomous-car.html)
@@ -20,11 +20,12 @@ Welcome to the autonomous vehicles guide for all **computer science students**, 
 - [ ] [Motion Planning](https://github.com/tabaddor/av-swe-guide#7-motion-planning)
 - [ ] [Testing](https://github.com/tabaddor/av-swe-guide#8-testing)
 ## Research ##
-- [ ] TODO
+- [ ] Adversarial Attacks
+- [ ] Adversarial Defenses
+- [ ] Vehicle-to-Everything (V2X)
 ## Resources/FAQ ##
 - [ ] [Resources](https://github.com/tabaddor/av-swe-guide#resources-1)
 - [ ] [AV Companies](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase)
-- [ ] [What can you do now?](https://github.com/tabaddor/av-swe-guide#what-can-you-do-now)
 - [ ] [FAQ](https://github.com/tabaddor/av-swe-guide#faq-speech_balloon)
 
 # How to Contribute
@@ -58,29 +59,15 @@ This [README](https://github.com/tabaddor/av-swe-guide) document is the central 
 #### Contributing Document ####
 The [contributing document](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md) provides details regarding contributing guidelines, issues, feature requests, and the repository vision. Before submitting an issue or pull request, please briefly review it.
 
-#### Tutorials ####
-**On the GitHub page, the tutorials can be found in the ['tutorials'](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials) folder**
-
-#### Resources ####
-Other resources outside of the structured roadmap this project compiles include YouTube channels, open source github projects. To be specific:
-1. [Resources](https://github.com/tabaddor/av-swe-guide#resources) (Links to YouTube channels, research papers, documentation, GitHub projects, and more that are touched upon in the guide)
-2. [Full-Time and Internship Opportunties](https://github.com/tabaddor/av-swe-guide#av-companies-briefcase) :briefcase:
-3. Self Driving Car Company Developments and Research
-
 ### Sections ###
 The table of contents of this guide is [here](https://github.com/tabaddor/av-swe-guide#table-of-contents) in this README document. Feel free to jump around from section to section,
 or skim through a section's resource. These sections will be continuously updating and improving with new material and resources. 
-
-### Tutorials :book: :robot: ###
-The purpose of the tutorials is to provide hands-on learning working with tools and technologies covered in or related to material in the guide contents. For example, though Robot Operating System (ROS) is not explicity covered in a dedicated section, it's a popular middleware used in robotics that's a handy thing to know.
-
-_Have a suggestion for a tutorial not covered? Want to suggest an edit for a current tutorial?_ Submit and issue and pull request!
 
 ### Community :speech_balloon: ###
 As this community grows, [@tabaddor](https://github.com/tabaddor) will look into creating a community Slack and/or Discord. For the time being, all communication will be exclusively on GitHub.
 
 # Pre-Requisites (and resources)
-For those who are computer science students at a university or a software engineer, it is assumed you have basic data structures and algorthms knowledge. Regardless, this learning guide is for everyone, so below, I have compiled basic knowledge that is important before embarking on this awesome guide. 
+Some basic knowledge may be assumed, but below are important topics to review. 
 
 - [ ] [Linear Algebra by MIT OpenCourseware](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
 - [ ] [C++](https://www.learncpp.com/) and/or [Python](https://www.coursera.org/specializations/python) programming is expected
@@ -151,7 +138,7 @@ Below is a typical software stack for a self-driving car. It should be pretty se
 
 ### Section Terminoloy: ###
 - **Sensors:** A device or machine whose purpose is to detect events or changes in its environment and record or respond to the data.
-- **Computer Vision (Perception):** A field of artificial intelligence that trains computers to interpret and understand the visual world.
+- **Computer Vision (Perception):** A field of computer science that trains computers to interpret and understand the visual world.
 - **Controls:** Manipulation of forces by way of steering, braking, etc. Needed to execute guidance commands to maintain vehicle stability.
 - **Planning:** Planning a path, mission, or behavior of the vehicle and predictions of its surrounding.
 - **Mobility as a Service (MaaS):** A shift from personally-owned modes of transportation and towards mobility provided as a servie.
@@ -168,12 +155,11 @@ As a software engineer working on self driving car technology, **it is important
 
 ### Sensors and Hardware Architecture :battery: ###
 - [ ] [Sensors and Computing Hardware](https://www.coursera.org/lecture/intro-self-driving-cars/lesson-1-sensors-and-computing-hardware-LrLty)
-- [ ]  [Three Sensor Types of Autonomous Vehicles](https://www.fierceelectronics.com/components/three-sensor-types-drive-autonomous-vehicles)
+- [ ] [Three Sensor Types of Autonomous Vehicles](https://www.fierceelectronics.com/components/three-sensor-types-drive-autonomous-vehicles)
 
 **Hardware in the Loop (HiL)**
 
 **_Hardware in the Loop_** is a technique that is used in the development and testing of _real-time embedded systems_. Working as a software or computer engineer at a self-driving car compnay, you may work on the Hardware in the loop team.
-- [ ] [What is Hardware in the Loop? (video)](https://www.youtube.com/watch?v=BrmqyVuyegc)
 - [ ] [Hardware in the Loop](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)
 - [ ] [Hardware in the Loop simulation for autonomous vehicles](https://www.researchgate.net/publication/241157481_Hardware-in-the-loop_simulation_for_autonomous_driving)
 - [ ] [HIL Simulator for Developing Automated Driving Algorithms](https://ieeexplore.ieee.org/document/8123155)
@@ -193,7 +179,7 @@ _The high level idea_ behind self-driving car software architecture and stacks i
 ![autoware-selfdrivingunit-stack](https://user-images.githubusercontent.com/44756122/87736188-8437c480-c7a5-11ea-801a-a6085fdb654d.png)
 
 
-### Section Tutorials and Projects: ###
+### Section Tutorial: ###
 - [ ] [ROS (Robot Operating System) Tutorials](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials/ros)
 
 **Section Terminology:**
@@ -261,10 +247,6 @@ His YouTube channel can be found in the [Resources section](https://github.com/t
 - [ ] [Best Practices for Unit Testing](https://www.youtube.com/watch?v=Qkzjmgn8zto)
 - [ ] [Embedded Software Security, Safety, and Quality](https://www.youtube.com/watch?v=elK0GJUm958)
 
-
-### Section Tutorials and Projects: ###
-- [ ] [Testing Tutorial](https://github.com/tabaddor/av-swe-guide/tree/master/tutorials/testing)(_Note: This is the same tutorial listed in the [Testing](https://github.com/tabaddor/av-swe-guide#8-testing) section_)
-
 ### Section Terminology: ###
 - **Safety:** Condition of being protected, unlikely to cause or be at risk of danger, injury, or death. 
 - **Testing:** Activity involved placing your code under rigurous edge cases that allows you to assess the code quality.
@@ -283,86 +265,48 @@ use different metrics to measure code quality.
 
 
 # 4. Deep Learning for Self-Driving Cars 🧠 #
-The resources in this section will be enough to get started with deep learning. Remind you, it takes _years_ to understand/master the concepts in ML and deep learning.
+The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free.
 
-The high level idea behind Deep Learning is building machine learning algorithms and functions that mimic the human brain in processing data for tasks including object detection, speech recognition, and decision making. If you haven't already, I highly recommend you check out [Stanford's Machine Learning Course](https://www.coursera.org/learn/machine-learning) for free. Also, [**this**](https://github.com/tabaddor/Machine-Learning) has some great resources compiled for machine learning, deep learning, and computer vision.
-
-### Great Review ###
+### ML, DL, RL Review ###
 - [] [Mathematics for Machine Learning](https://mml-book.github.io/)
 - [] [Deep Learning](https://www.deeplearningbook.org/)
 - [] [Reinforcement Learning](http://www.incompleteideas.net/book/the-book-2nd.html)
 
-### Machine Learning Overview ###
+### Machine Learning ###
 - [ ] [What is Machine Learning?](https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning)
 - [ ] [Supervised Learning](https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervised-learning)
 - [ ] [Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
-- [ ] [Classification](https://www.coursera.org/learn/machine-learning/lecture/wlPeP/classification)
 - [ ] [Stanford CS229 Machine Learning](http://cs229.stanford.edu/)
 - [ ] [University of Michigan EECS 445 Machine Learning](https://eecs445-f16.github.io/)
 - [ ] [University of Michigan EECS 445 Machine Learning Resources](https://github.com/eecs445-f16/umich-eecs445-f16)
-
-### Neural Networks ###
-- [ ] [What is a Neural Network?](https://www.coursera.org/learn/neural-networks-deep-learning/lecture/eAE2G/what-is-a-neural-network)
-- [ ] [Non-Linear Hypothesis](https://www.coursera.org/learn/machine-learning/lecture/OAOhO/non-linear-hypotheses)
-- [ ] [Neurons and the Brain](https://www.coursera.org/learn/machine-learning/lecture/IPmzw/neurons-and-the-brain)
-- [ ] [Neural Network Model Representation](https://www.coursera.org/learn/machine-learning/lecture/ka3jK/model-representation-i)
 
 A specifc class of Neural Networks you should familiarize yourself with are Convolutional Neural Networks, which are involved in tasks including object detection, image processing, classification, and image segmentation.
 ### Convolutional Neural Networks ###
 - [ ] [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
 - [ ] [One Layer of a Convolutional Neural Network](https://www.coursera.org/lecture/convolutional-neural-networks/one-layer-of-a-convolutional-network-nsiuW)
-- [ ] [Simple CNN Example](https://www.coursera.org/lecture/convolutional-neural-networks/simple-convolutional-network-example-A9lXL)
 - [ ] [Why Convolutions?](https://www.coursera.org/lecture/convolutional-neural-networks/why-convolutions-Xv7B5)
-- [ ] [Feedforward Neural Networks]()
-
-Choose from **at least one** of the below:
-1. ### [MIT's Deep Learning for Self Driving Cars](https://deeplearning.mit.edu/)
-2. ### [Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
-
-### Section Tutorials/Projects ###
-Will be updated. Expect projects to work with implementing basic machine learning models, neural networks, and computer vision.
+- [ ] [Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+- [ ] [Deep Learning for Computer Vision](https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/)
 
 ### Section Terminology ###
 - **Machine Learning:** A subset of artificial intelligence that provides a computer, or system, the ability to improve its performance on a task by learning from experience.
 - **Supervised Learning:** A type of machine learning task that is provided labeled training data (both x and y are known).
-- **Unsupervised Learning:** A type of machine learning task that is provided unlabeled training data (only y is known).
+- **Unsupervised Learning:** A type of machine learning task that is provided unlabeled training data (only x is known).
 - **Classification Problems:** A machine learning task that involves discrete valued output ("boy" or "girl"; "dog" or "cat").
 - **Regression Problems:** A machine learning task that involves continuous/numerical valued output ("find the expected housing price given this data")
 - **Gradient Descent:** An optimization algorithm for finding the local minimum of a differentiable function. When we say machine learning algorithms involve slow altering of a function (hypothesis) to converge to the optimal output, we are referring to this idea of gradient descent.
 - **Deep Learning:** A subset of machine learning that bases its methods off of artificial neural networks, loosely inspired by the human brain. 
-- **Neural Network:** Algorithms based off the biological neural networks, designed to mimic the way the human brain operates. Neural networks are meant to adapt to input and generate the best possible result without needing to redesign the machine learning model/algorithm. 
-- **Convolutional Neural Network:** A class of neural networks applied to visual imagery such as object detection. 
-- **Stochastic Gradient Descent:** A deterministic approximation to gradient descent. Much more effieicnt algortihm that iteratively computes gradient descent as traditionally defined. 
+- **Neural Network:** Non-linear algorithm based off the biological neural networks, designed to mimic the way the human brain operates. Neural networks are meant to adapt to input and generate the best possible result without needing to redesign the machine learning model/algorithm. 
+- **Convolutional Neural Network:** A class of neural networks applied to visual imagery such as object detection that utilizes the convolution operation, pooling, and other tunable layers to respect the spatial structure of image data.
 
 # 5. State Estimation and Localization #
 State estimation is the problem of determining the current **state** of a system, such as a vehicle. Localization is the implementation of algorithms for state estimation with an error of less than a small, non-zero value. 
 
 ### Least Squares ###
-- [ ] [Squared Error Criterion and the Method of Least Squares](https://www.coursera.org/lecture/state-estimation-localization-self-driving-cars/lesson-1-part-1-squared-error-criterion-and-the-method-of-least-squares-zDFtr)
-- [ ] [Squared Error Criterion and the Method of Least Squares - Part 2](https://www.coursera.org/lecture/state-estimation-localization-self-driving-cars/lesson-1-part-2-squared-error-criterion-and-the-method-of-least-squares-Ewy9K)
-- [ ] [Recursive Least Squares](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/0UbTb/lesson-2-recursive-least-squares)
-- [ ] [Research on Lane Change Decision for Autonomous Vehicles Based on Multi-Kernels Least Square Policy Iteration](https://ieeexplore.ieee.org/abstract/document/8047653)
 
 ### State Estimation and Kalman Filters ###
-- [ ] [Introduction to Kalman Filters and Its Applications](https://www.intechopen.com/books/introduction-and-implementations-of-the-kalman-filter/introduction-to-kalman-filter-and-its-applications)
-- [ ] [The Kalman Filter](https://www.coursera.org/lecture/state-estimation-localization-self-driving-cars/lesson-1-the-linear-kalman-filter-7DFmY)
-- [ ] [The Extended Kalman Filter](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/qIyk3/lesson-3-going-nonlinear-the-extended-kalman-filter)
-- [ ] [Basic Kalman Filter in C++](https://github.com/hmartiro/kalman-cpp)
 
 ### Pose Estimation ###
-- [ ] [3D Geometry and References Frames](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/ccy3B/lesson-1-3d-geometry-and-reference-frames)
-- [ ] [Pose Estimation of a Textured Object](https://docs.opencv.org/master/dc/d2c/tutorial_real_time_pose.html)
-- [ ] [TensorFlow C++ Pose Estimation](https://github.com/jenshemprich/tf-cpp-pose-estimation)
-- [ ] [Why Sensor Fusion?](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/HCP35/why-sensor-fusion)
-
-### LiDar Sensing ###
-
-- [ ] [Light Detection and Ranging Sensors](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/3NXgp/lesson-1-light-detection-and-ranging-sensors)
-- [ ] [LiDar Sensing Models and Point Clouds](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/Huunu/lesson-2-lidar-sensor-models-and-point-clouds)
-- [ ] [Pose Estimation from LiDar Data](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars/lecture/XE9kZ/lesson-3-pose-estimation-from-lidar-data)
-
-### Section Tutorials/Projects ###
-Will be updated.
 
 ### Section Terminology ###
 - **State Estimation and Localization:** State estimation involves determining the state of an object, vehicle, or self. Localization is essentially how a vehicle figures out its location, or where it is, whch involves using its on-board cameras and sensors to estimate positions.
@@ -374,7 +318,7 @@ Will be updated.
 - **Point Clouds:** A set of data points in space that represent a 3D shape or object.
 
 # 6. Perception 👀 #
-For the purposes of this guide, perception and computer vision are synonymous. Perception deals with training our vehicle to perceive its environment in order to act on what it perceives. How does it perceive its environment? **With sensors**. And how does the vehicle make sense of the sensor data? **With computer vision algorithms.**
+For the purposes of this guide, perception and computer vision are synonymous. Perception deals with training our vehicle to perceive its environment in order to act on what it perceives. 
 
 ### Computer Vision ###
 - [ ] [Computer Vision for Autonomous Vehicles](https://arxiv.org/pdf/1704.05519.pdf)
@@ -385,17 +329,7 @@ Today, there are two main ways of performing vision: Classical vision and machin
 - [ ] [OpenCV Tutorials for Classical Vision](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
 
 ##### Vision with Deep Learning #####
-Make sure you have first gone through the Deep Learning section to understand the underlying theory and concepts. 
-
 - [Deep Learning for Computer Vision: University of Michigan All Lectures](https://www.youtube.com/watch?v=dJYGatp4SvA&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
-
-### Sensors and Cameras ###
-- [The Camera Sensor](https://www.coursera.org/lecture/visual-perception-self-driving-cars/lesson-1-part-1-the-camera-sensor-ziCGj)
-
-### Camera Calibration ###
-- [Camera Calibration](https://www.coursera.org/learn/visual-perception-self-driving-cars/lecture/EEu6i/lesson-2-camera-calibration)
-- [Image Filtering](https://www.coursera.org/learn/visual-perception-self-driving-cars/lecture/AMoYz/lesson-4-image-filtering)
-- [Image Features and Feature Descriptors](https://www.coursera.org/learn/visual-perception-self-driving-cars/lecture/V7iCJ/lesson-1-introduction-to-image-features-and-feature-detectors)
 
 ### Object Detection ###
 - [Object Detection Guide](https://www.fritz.ai/object-detection/)
@@ -403,8 +337,6 @@ Make sure you have first gone through the Deep Learning section to understand th
 - [YOLO Original Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html)
 
 ### Semantic Segmentation ###
-
-### Section Tutorials/Projects ###
 
 ### Section Terminology ###
 - **Computer Vision:** How can computers understand a situation based on images? CV is all about extracting and making use of interesting and important features of an image, which is really just made up on pixels which can be represented as vectors/matrices, to ultimately interpret an environment.
@@ -446,20 +378,6 @@ Motion planning, also known as **path planning**, is the the problem of finding 
 
 ### Simulation ###
 
-# Bonus: Mathematics for Self-Driving Cars #
-Mathematics is fundamental to most engineering concepts, especially those involved in designing and testing the systems of AVs. Here are a few key resources and topics to review if you are interested.
-
-### Linear Algebra ###
-- [MIT Open Courseware](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
-- [Khan Academy](https://www.khanacademy.org/math/linear-algebra)
-
-### Statistics ###
-- [MIT Open Courseware](https://ocw.mit.edu/courses/mathematics/18-443-statistics-for-applications-spring-2015/)
-
-### Information Theory ###
-- [Introduction to Information Theory](https://web.stanford.edu/~montanar/RESEARCH/BOOK/partA.pdf)
-
-
 # Resources
 - [Carla- Open Source Simulator for AVs](https://carla.org/)
 - [ROS- Robot Operating System](https://www.ros.org/)
@@ -470,7 +388,7 @@ Mathematics is fundamental to most engineering concepts, especially those involv
 
 
 # AV Companies :briefcase:
-A list of companies working on autonomous vehicle technologies. The purpose of this section is to include any relevant information about the companies and any open internship and full-time positions. Don't see your company or a position? Submit an issue or pull request!
+A list of companies working on autonomous vehicle technologies. The purpose of this section is to include any relevant information about the companies and any open internship and full-time positions. Don't see your company, position, or a link is broken? Submit an issue or pull request!
 ### Waymo ###
 [Waymo](https://waymo.com/) is an autonomous driving technology company that is a subsiduary of Alphabet, Inc. 
 
@@ -514,16 +432,16 @@ A list of companies working on autonomous vehicle technologies. The purpose of t
 # FAQ :speech_balloon:
 #### Q: Who can use this guide? ####
 A: This guide is mainly geared towards computer science students and software engineers looking to learn more about the self-driving car industry. With that said, 
-anyone is welcome to embark on the guide, just make sure you have an understanding of the [pre-requisites](https://github.com/tabaddor/av-swe-guide#pre-requisites-and-resources).
+anyone is welcome to use on the guide, just make sure you have an understanding of the [pre-requisites](https://github.com/tabaddor/av-swe-guide#pre-requisites-and-resources).
 
 #### Q: How do I get started with this guide and roadmap? ####
-A: Get started [here](https://github.com/tabaddor/av-swe-guide#software-engineering-for-self-driving-cars-guide-car)! Have fun learning! Official guide content starts [here](https://github.com/tabaddor/av-swe-guide#1-introduction), but the introductions are important.
+A: Get started [here](https://github.com/tabaddor/av-swe-guide#software-engineering-for-self-driving-cars-guide-car)! Official guide content starts [here](https://github.com/tabaddor/av-swe-guide#1-introduction).
 
 #### Q: Can I download this guide? ####
-A: You may clone and work with this project on your local machine. In fact, if you want to complete the tutorials, that is recommended. Get started with [this](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md#how-can-i-contribute) to create your own fork.
+A: You may clone and work with this project on your local machine.
 
 #### Q: I have a suggestion, how can I contribute to this guide? ####
 A: Contribitions and suggestions are always welcome. First, read through this [contributing document](https://github.com/tabaddor/av-swe-guide/blob/master/contributing.md), then submit an issue and/or pull request.
 
 #### Q: I don't know much about computer science/software, how can I still use this? ####
-A: Like stated in a previous question, this guide assumes a certain level of knwoledge of computer science and software engineering concepts. Feel free to learn those, however, in the future, we are looking at developing tutorials that introduce other engineering fields (electrial, mechanical, systems, etc).
+A: Some resources in this guide assumes a certain level of knwoledge of computer science and software engineering concepts.
